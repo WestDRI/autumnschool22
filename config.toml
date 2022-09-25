@@ -1,0 +1,68 @@
+baseurl = "/"
+title = "Western Canada Research Computing"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+buildFuture = true
+footnotereturnlinkcontents = "↩"
+relativeURLs = true
+
+enableEmoji = true
+
+paginate = 20
+canonifyurls = true
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    style = "manni"
+
+[params]
+ repourl = "https://autumnschool2022.netlify.app/"
+ info = "Autumn School 2022"
+ sfuavatar = "/img/sfu.png"
+ dracavatar = "/img/drac.png"
+ error = "/img/404.png"
+ favicon_32 = "/img/sfu_favicon.png"
+ footercontent = "Information"
+ dateformat = "January 2, 2006"
+ hideCredits = false
+ hideCopyright = false
+ since = 2022
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "Bash"
+            weight = 1
+            url = "bash-menu"
+
+            [[languages.en.menu.main]]
+            name = "HPC"
+            weight = 2
+            url = "hpc-menu"
+
+            [[languages.en.menu.main]]
+            name = "Python"
+            weight = 3
+            url = "python-menu"
+
+            [[languages.en.menu.main]]
+            name = "R"
+            weight = 4
+            url = "r-menu"
+
+            [[languages.en.menu.main]]
+            name = "NVIDIA"
+            weight = 5
+            url = "nvidia-menu"
