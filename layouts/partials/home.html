@@ -1,0 +1,42 @@
+<section class="container centered">
+  <div class="about">
+    <br>
+    <br>
+    {{ if and (.Site.Params.sfuavatar) (.Site.Params.dracavatar) }} 
+    <div>
+      <a href="https://www.sfu.ca/">
+	<img src="{{ $.Site.Params.sfuavatar | relURL }}" alt="sfuavatar">
+      </a>
+      &emsp;&emsp;
+     <a href="https://alliancecan.ca/">
+	<img src="{{ $.Site.Params.dracavatar | relURL }}" alt="dracavatar">
+     </a>
+    </div>
+    {{ end }}
+    <br>
+    <br>
+    <h1>{{ .Site.Params.info }}</h1>
+    <br>
+    <br>
+    <div id="frontdates">
+      <div class="left"><a href="/bash-menu">Bash</a></div>
+      <div class="right">November 08</div>
+    </div>
+    <div id="frontdates">
+      <div class="left"><a href="/hpc-menu">HPC</a></div>
+      <div class="right">November 10</div>
+    </div>
+    <div id="frontdates">
+      <div class="left"><a href="/python-menu">Python</a></div>
+      <div class="right">November 15</div>
+    </div>
+    <div id="frontdates">
+      <div class="left"><a href="/r-menu">R</a></div>
+      <div class="right">November 17</div>
+    </div>
+    <div id="frontdates">
+      <div class="left"><a href="/nvidia-menu">NVIDIA</a></div>
+      <div class="right">November 22</div>
+    </div>
+  </div>
+</section>
