@@ -1,0 +1,234 @@
+pwd
+ls -l
+ls
+module list
+module load scipy-stack/2019b
+module avail scipy-stack
+module list
+module load scipy-stack/2022a
+module list
+tmux
+type move
+e .bashrc 
+cd sy
+ls -l .bashrc 
+cd /project/def-sponsor00/shared/syncHPC/
+gitstatus 
+git diff
+git add bashrc 
+git commit -m "safer version of move"
+git one
+git log
+git push
+cd
+e .bashrc 
+ls
+cd tmp/
+ls
+mv good_morning,_everyone ~/projects/def-sponsor00/user120/
+move hello ~/projects/def-sponsor00/user120/
+ls -l ~/projects/def-sponsor00/user120/
+cd ~/projects/def-sponsor00/user120/
+rm *
+ls
+cd -
+ls
+cd
+cd /project/def-sponsor00/shared
+ls
+rm introHPC.zip 
+ls
+wget --no-check-certificate http://bit.ly/introhpc2 -O introHPC.zip
+ls -l
+unzip -l introHPC.zip 
+hi
+chmod og+r start{Single,Multi}*.sh {introHPC,paraview}.zip
+ls -l
+module avail
+module avail gcc
+module list
+module avail intel
+module load intel
+which mpicc
+ls /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/intel2020/openmpi/4.0.3/bin/
+mpicc --show
+which icc
+icc
+echo $PATH
+df
+ls /project/
+ls /project/def-sponsor00/
+ls /scratch/
+ls
+ls projects/
+cd tmp/
+cp ~/projects/def-sponsor00/shared/introHPC.zip .
+ls -l introHPC.zip 
+unzip introHPC.zip 
+ls
+df -kh
+pwd
+ls
+ls -F
+cd projects/
+ls
+ls -F
+ls -l
+cd def-sponsor00/
+ls
+cd user120
+pwd
+touch abc
+ls
+cd
+ls
+exec env TERM='dumb' INSIDE_EMACS='29.0.50,tramp:2.6.0-pre' ENV='' HISTFILE=~/.tramp_history PROMPT_COMMAND='' PS1=\#\$\  PS2='' PS3='' /bin/sh  -i
+alias ls
+ls projects/
+ls projects/def-sponsor00/
+ls -l scratch
+cd scratch/
+pwd
+touch kjsadhkasjdh
+ls
+cd
+ls
+pwd
+ls
+/bin/ls
+rm play/
+rm tmp/
+ls
+/bin/ls
+mkdir tmp
+cd tmp
+nano 
+ls
+cat test.txt 
+nano test.txt 
+cat test.txt 
+vi test.txt 
+cat test.txt 
+emacs -nw test.txt 
+more test.txt 
+emacs 
+cat test.txt 
+rm \#test.txt# 
+nano test.txt 
+module list
+module avail gcc
+module load gcc
+module load gcc/10.3.0
+module list
+module load openmpi
+module list
+echo $PATH
+gcc
+which gcc
+hjsagdjashdgasjhdg
+module show gcc/10.3.0
+module avail intel
+module load intel
+which mpicc
+ls /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/intel2020/openmpi/4.0.3/bin/
+icc
+module avail
+module load nvhpc
+cc
+which cc
+which nvcc
+module list
+module load scipy-stack/2022a
+module list
+module avail python
+which python2
+python2
+module avail gaussian
+module spider gaussian
+module avail r
+module spider python
+tmux attach
+tmux
+tmux attach
+cd
+cp projects/def-sponsor00/shared/introHPC.zip .
+unzip introHPC.zip 
+ls
+cd codes/
+ls
+more pi.c
+module list
+gcc pi.c -o pi 
+gcc pi.c -o pi -lm 
+ls
+gcc -O2 pi.c -o pi 
+ls
+./pi 
+history 
+cat sharedPi.c 
+gcc -fopenmp sharedPi.c -o openmp
+ls
+gcc -fopenmp sharedPi.c -o openmp -lm
+gcc -O2 -fopenmp sharedPi.c -o openmp 
+ls
+cat distributedPi.c 
+mpicc -O2 distributedPi.c -o mpi
+ls
+ls -l mpi*        openmp*        pi
+/bin/ls -l mpi*        openmp*        pi
+mpicc --show
+module load intel
+mpicc --show
+history | grep unzip
+history | grep introHPC
+history > today.txt
+wc -l today.txt
+cd
+cd tmp/
+ls
+rm *
+ls
+cp ~/projects/def-sponsor00/shared/introHPC.zip .
+ls
+unzip introHPC.zip 
+ls
+history 
+cd
+cd codes/
+ls Mak*
+emacs -nw Makefile
+make serial
+make openmp
+rm openmp 
+make openmp
+make mpi
+rm mpi
+make mpi
+module list
+module load gcc
+ls
+rm pi serial openmp 
+ls
+make serial
+make openmp
+make mpi
+cat Makefile 
+emacs -nw Makefile 
+make mpi
+rm mpi 
+make mpi
+cat Makefile 
+emacs -nw Makefile 
+make clean
+ls
+emacs -nw Makefile 
+make all
+ls
+cat Makefile 
+man find
+cd
+where today.txt
+cd codes/
+rm today.txt 
+cd
+history > today.txt

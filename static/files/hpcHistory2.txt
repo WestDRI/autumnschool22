@@ -1,0 +1,107 @@
+echo $SLURM_NODELIST 
+echo $SLURM_JOBID 
+./optimized 
+time ./optimized 
+python pi.py
+echo $SLURM_CPUS_PER_TASK 
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+echo $OMP_NUM_THREADS
+./openmp
+mpirun  -np 3 ./mpi 
+mpirun  -np 2 ./mpi 
+./mpi 
+hostname
+sbatch job_serial.sh 
+sq
+squeue 
+which squeue
+ls /opt/software/slurm/bin
+squeue -u user120
+source ~/.bashrc 
+alias sq
+sq
+history 
+ls -t
+more slurm-73.out 
+sbatch job_serial.sh 
+sq
+squeue 
+sq
+more slurm-79.out 
+sbatch job_serial.sh 
+scancel 85
+sq
+ls
+make clean
+ls
+make serial
+ls
+sbatch job_serial.sh 
+sq
+sacct -j 90 
+sacct -j 90 --format=maxrss
+top
+sacct -j 90 --format=maxrss
+sacct -j 90 --format=maxrss,elapsed
+time ls 
+make clean
+make serial
+mv serial optimized
+gcc pi.c -o unoptimized
+gcc pi.c -o unoptimized -lm
+ls -l
+/bin/ls -l
+gcc pi.c -o unoptimized -lm
+gcc -O2 pi.c -o optimized -lm
+./optimized 
+sbatch job_serial.sh 
+sq
+more slurm-128.out 
+python
+module avail python
+module load python
+python
+sbatch job_serial.sh 
+sq
+more slurm-131.out 
+python
+gcc -O2 pi.c -o test8
+gcc -O2 pi.c -o test9
+gcc -O2 pi.c -o test10
+ls -l test*
+/bin/ls -l test*
+sbatch job_array.sh 
+sq
+ls
+ls -l myprog137*out
+more myprog13710.out
+cat myprog137*out
+ls -l myprog137*err
+make openmp
+sbatch job_openmp.sh 
+sq
+alias sq
+sq
+more slurm-144.out 
+make mpi
+sbatch job_mpi.sh 
+sq
+more slurm-151.out 
+salloc --time=00:05:00 --mem=1000
+salloc --cpus-per-task=2 --time=0-00:05 --mem=1000
+salloc --ntasks=3 --time=0-00:05 --mem-per-cpu=1000
+emacs -nw job_serial.sh 
+cd codes/
+ls
+tmux
+seff
+seff --help
+man seff
+which seff
+man sacct
+hostname
+ls
+rm introHPC.zip 
+cd codes/
+ls
+cat job_serial.sh
