@@ -1,0 +1,1 @@
+Repo for the [[https://autumnschool2022.netlify.app/][Western Canada Research Computing Autumn School 2022 website]].
