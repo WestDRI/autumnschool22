@@ -1,5 +1,5 @@
 +++
-title = "Basics of Python"
+title = "Python level 1"
 slug = "python-menu"
 +++
 
@@ -16,6 +16,8 @@ This introductory course will walk you through the basics of programming in Pyth
 features -- variables and data types, conditionals, lists, for/while loops, list comprehensions, dictionaries, writing
 functions -- as well as working with external libraries such as numpy (mathematical arrays), pandas (data frames), and
 matplotlib (basic plotting).
+
+Note that this course is a prerequisite for our more advanced Python courses later in the year.
 
 **Instructors**: Alex Razoumov & Marie-Helene Burle (SFU)
 
