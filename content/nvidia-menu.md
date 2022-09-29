@@ -13,7 +13,7 @@ This course will start at 9:30am Pacific Time and will run until 12:30pm Pacific
 ---
 
 
-**Instructors**: Kris Keipert and Zoe Ryan (NVIDIA)
+**Instructors**: Kris Keipert & Zoe Ryan (NVIDIA)
 
 **Prerequisites:**
 
