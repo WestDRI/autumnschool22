@@ -1,5 +1,5 @@
 +++
-title = "XXXX"
+title = "Using GPUs from Python"
 slug = "nvidia-menu"
 +++
 
@@ -13,7 +13,7 @@ This course will start at 9:30am Pacific Time and will run until 12:30pm Pacific
 ---
 
 
-**Instructor**:
+**Instructors**: Kris Keipert and Zoe Ryan (NVIDIA)
 
 **Prerequisites:**
 
