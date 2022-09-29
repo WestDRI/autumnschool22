@@ -28,33 +28,30 @@ participate in the course exercises. On Windows we recommend
 [the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux computers SSH is
 usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
 
-<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Day 1 - 9:30am-9:45am Pacific{{</cgr>}} \ -->
-<!-- {{<nolinktitle>}}Opening morning session{{</nolinktitle>}} -->
-<!-- {{<cbr>}}On your own{{</cbr>}} \ -->
-<!-- {{<nolinktitle>}}Overview{{</nolinktitle>}} \ -->
-<!-- {{<nolinktitle>}}Basics{{</nolinktitle>}} \ -->
-<!-- {{<nolinktitle>}}Languages and tools{{</nolinktitle>}} -->
-<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30am-12:30pm Pacific{{</cgr>}} \ -->
-<!-- {{<nolinktitle>}}Mid-day session{{</nolinktitle>}} -->
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Day 1 - 9:30am-9:45am Pacific{{</cgr>}} \
+{{<nolinktitle>}}Opening morning session{{</nolinktitle>}}
+<!-- {{<linktitle url="../hpc1" text="Opening morning session">}} -->
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:30am-9:45am Pacific{{</cgr>}} \
-{{<linktitle url="../hpc1" text="Opening morning session">}}
 {{<cbr>}}On your own{{</cbr>}} \
-{{<linktitle url="../hpc/hpc-01-overview" text="Overview (20 min)">}} \
-{{<linktitle url="../hpc/hpc-02-basics" text="Basics (28 min)">}} \
-{{<linktitle url="../hpc/hpc-03-languages" text="Languages and tools (61 min)">}}
+{{<nolinktitle>}}Overview{{</nolinktitle>}} \
+{{<nolinktitle>}}Basics{{</nolinktitle>}} \
+{{<nolinktitle>}}Languages and tools{{</nolinktitle>}} \
+{{<nolinktitle>}}Parallel programming frameworks{{</nolinktitle>}}
+<!-- {{<linktitle url="../hpc/hpc-01-overview" text="Overview (20 min)">}} \ -->
+<!-- {{<linktitle url="../hpc/hpc-02-basics" text="Basics (28 min)">}} \ -->
+<!-- {{<linktitle url="../hpc/hpc-03-languages" text="Languages and tools (61 min)">}} -->
+<!-- {{<linktitle url="../hpc/hpc-03b-parallel" text="Parallel programming frameworks (61 min)">}} -->
+
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30am-12:30pm Pacific{{</cgr>}} \
-{{<linktitle url="../hpc2" text="Mid-day session">}}
+{{<nolinktitle>}}Mid-day session{{</nolinktitle>}}
+<!-- {{<linktitle url="../hpc2" text="Mid-day session">}} -->
 
-<!-- {{<nolinktitle>}}Morning session{{</nolinktitle>}} -->
-<!-- {{<cbr>}}On your own{{</cbr>}} \ -->
-<!-- {{<nolinktitle>}}Scheduling{{</nolinktitle>}} \ -->
-<!-- {{<nolinktitle>}}Best practices, file sharing, and summary{{</nolinktitle>}} -->
-<!-- {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Day 2 - 11:30am-12:30pm Pacific{{</cgr>}} \ -->
-<!-- {{<nolinktitle>}}Closing mid-day session{{</nolinktitle>}} -->
-
-{{<linktitle url="../hpc3" text="Morning session">}}
 {{<cbr>}}On your own{{</cbr>}} \
-{{<linktitle url="../hpc/hpc-04-scheduling" text="Scheduling (66 min)">}} \
-{{<linktitle url="../hpc/hpc-05-best-summary" text="Best practices, file sharing, and summary (9 min)">}}\
-{{<linktitle url="../hpc4" text="Closing mid-day session">}}
+{{<nolinktitle>}}Scheduling{{</nolinktitle>}} \
+{{<nolinktitle>}}Best practices, file sharing, and summary{{</nolinktitle>}}
+<!-- {{<linktitle url="../hpc/hpc-04-scheduling" text="Scheduling (66 min)">}} \ -->
+<!-- {{<linktitle url="../hpc/hpc-05-best-summary" text="Best practices, file sharing, and summary (9 min)">}}\ -->
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2:30pm-4:30pm Pacific{{</cgr>}} \
+{{<nolinktitle>}}Closing session{{</nolinktitle>}}
+<!-- {{<linktitle url="../hpc3" text="Closing session">}} -->
