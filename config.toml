@@ -49,12 +49,12 @@ canonifyurls = true
 
             [[languages.en.menu.main]]
             name = "HPC"
-            weight = 2
+            weight = 3
             url = "hpc-menu"
 
             [[languages.en.menu.main]]
             name = "Python"
-            weight = 3
+            weight = 2
             url = "python-menu"
 
             [[languages.en.menu.main]]

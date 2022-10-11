@@ -3,7 +3,7 @@ title = "High-performance computing (HPC)"
 slug = "hpc-menu"
 +++
 
-{{<cor>}}Thursday, November 10{{</cor>}}\
+{{<cor>}}Tuesday, November 15{{</cor>}}\
 {{<cgr>}}9:30am–12:30pm & 1:30pm–4:30pm Pacific Time{{</cgr>}}
 
 This course will start at 9:30am Pacific Time and will run until 12:30pm. Its format will be a combination of

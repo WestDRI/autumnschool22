@@ -3,7 +3,7 @@ title = "Python level 1"
 slug = "python-menu"
 +++
 
-{{<cor>}}Tuesday, November 15{{</cor>}}\
+{{<cor>}}Thursday, November 10{{</cor>}}\
 {{<cgr>}}9:30am–12:30pm Pacific Time{{</cgr>}}
 
 This course will start at 9:30am Pacific Time and will run until 12:30pm Pacific Time.
