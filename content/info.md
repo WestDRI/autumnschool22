@@ -3,7 +3,11 @@ title = "Information"
 slug = "info"
 +++
 
-<!-- **Registration will open in coming days.** -->
+## About this school
+
+This research computing school is open to anyone working or studying at a Canadian post-secondary institution. It will run **online** from November 8 to 22, 2022.
+
+It focuses on introductory topics and is a great foundation for our more advanced school coming up in the spring of 2023.
 
 ## Registration
 
