@@ -1,6 +1,6 @@
 +++
 title = "Using GPUs from Python"
-slug = "nvidia-menu"
+slug = "gpu-menu"
 +++
 
 {{<cor>}}Tuesday, November 22{{</cor>}}\

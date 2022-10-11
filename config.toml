@@ -65,4 +65,4 @@ canonifyurls = true
             [[languages.en.menu.main]]
             name = "GPU"
             weight = 5
-            url = "nvidia-menu"
+            url = "gpu-menu"
