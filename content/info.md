@@ -11,6 +11,7 @@ It focuses on introductory topics and is a great foundation for our more advance
 
 ## Registration
 
+Registration is free: simply fill in {{<a "https://docs.google.com/forms/d/e/1FAIpQLSfx-q2AI5eu3ZCfZYC2TKiB-IvENAvrL6-isTS2aUMAaq_XKA/viewform" "this form">}} with your Canadian post-secondary institution email address.
 
 ## About us
 
