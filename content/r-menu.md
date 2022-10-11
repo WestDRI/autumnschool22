@@ -19,3 +19,18 @@ Note that this course is a prerequisite for our more advanced R courses later in
 **Prerequisites:** none.
 
 **Software**: 
+
+
+<!-- - R: why and for whom? -->
+<!-- why: free, open source, many packages, particularly for statistical modelling -->
+<!-- for whom: tabular data, data science, biology, linguistics -->
+<!-- some downsides too: slow, memory intensive, inconsistent, written by data scientists, not computer scientists -->
+<!-- - What type of programming language is R? -->
+<!-- functional -->
+<!-- object-oriented -->
+<!-- R follows a copy-on-modify system -->
+<!-- - Resources -->
+<!-- - R: the basics -->
+<!-- - Packages -->
+<!-- - The tidyverse -->
+
