@@ -10,6 +10,8 @@ This course will start at 9:30am Pacific Time and will run until 12:30pm Pacific
 
 Course materials will be added here shortly before the start of the course.
 
+There is a single {{<a "https://forms.gle/NZhzRU5o8ti8VhVJ7" "free registration">}} for the entire autumn school.
+
 ---
 
 This introductory course will walk you through the basics of programming in Python. We will cover the main language
