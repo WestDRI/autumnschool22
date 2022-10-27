@@ -24,7 +24,7 @@ canonifyurls = true
     style = "manni"
 
 [params]
- repourl = "https://autumnschool2022.netlify.app/"
+ repourl = "https://autumnschool2022.westdri.ca/"
  info = "Autumn School 2022"
  sfuavatar = "/img/sfu.png"
  dracavatar = "/img/drac.png"
