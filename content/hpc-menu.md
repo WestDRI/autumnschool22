@@ -12,6 +12,8 @@ materials will be added here shortly before the start of the course.
 
 Course materials will be added here shortly before the start of the course.
 
+There is a single {{<a "https://forms.gle/NZhzRU5o8ti8VhVJ7" "free registration">}} for the entire autumn school.
+
 ---
 
 This course is an introduction to High-Performance Computing on Compute Canada clusters.
