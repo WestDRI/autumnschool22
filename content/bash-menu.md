@@ -29,7 +29,7 @@ order to participate in the course exercises. On Windows we recommend
 [the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux
 computers SSH is usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
 
-{{<cor>}}Zoom: morning session{{</cor>}} {{<s>}} {{<cgr>}}9:30am-12:30pm Pacific{{</cgr>}} \
+{{<cor>}}Zoom: morning session (Alex){{</cor>}} {{<s>}} {{<cgr>}}9:30am-12:30pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Introduction{{</nolinktitle>}} \
 {{<nolinktitle>}}Navigating the filesystem{{</nolinktitle>}} \
 {{<nolinktitle>}}Creating, moving and copying things{{</nolinktitle>}} \
@@ -38,7 +38,7 @@ computers SSH is usually pre-installed (try typing `ssh` in a terminal to make s
 {{<nolinktitle>}}Wildcards, redirection to files, pipes, and aliases{{</nolinktitle>}} \
 {{<nolinktitle>}}Loops{{</nolinktitle>}}
 
-{{<cor>}}Zoom: afternoon session{{</cor>}} {{<s>}} {{<cgr>}}1:30pm-4:30pm Pacific{{</cgr>}} \
+{{<cor>}}Zoom: afternoon session (Marie){{</cor>}} {{<s>}} {{<cgr>}}1:30pm-4:30pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Bash scripts and functions, and variables{{</nolinktitle>}} \
 {{<nolinktitle>}}Finding things{{</nolinktitle>}} \
 {{<nolinktitle>}}Text manipulation{{</nolinktitle>}} \
