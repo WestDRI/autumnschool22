@@ -40,12 +40,12 @@ implementations out there. It is a default on Compute Canada systems, but you ca
 different shell such as *tcsh*, *zsh*, etc. The main difference between these is a slight change in the
 command syntax.
 
-For the hands-on work, we have set up a small training cluster *206.12.98.246* that features the same
+For the hands-on work, we have set up a small training cluster *bobthewren.c3.ca* that features the same
 software setup as our real production clusters. In the ["Introduction to HPC"](../../hpc-menu) course you will
 learn the specifics of working on a cluster: its software environment, scheduler, compilers, parallel
-programming models, and so on. In this course we will learn how to work with a remote Linux machine and
-its filesystem, the basic Linux commands, how to transfer files to/from/between remote systems, and
-similar introductory topics.
+programming models, and so on. In this course we will learn how to work with a remote Linux machine and its
+filesystem, the basic Linux commands, how to transfer files to/from/between remote systems, how to automate
+things, and similar introductory topics.
 
 ## Logging in to a remote system
 
@@ -53,10 +53,10 @@ You can connect to a remote HPC system via SSH (secure shell) using a terminal o
 Mac laptops have built-in terminals, whereas on Windows we suggest using a free version of MobaXterm
 that comes with its own terminal emulator and a simple interface for remote SSH sessions.
 
-Let's log in to *206.12.98.246* using a username userXXX (where XXX is three digits):
+Let's log in to *bobthewren.c3.ca* using a username userXXX (where XXX is three digits):
 
 ```sh
-[local]$ ssh userXXX@206.12.98.246   # password supplied by the instructor
+[local]$ ssh userXXX@bobthewren.c3.ca   # password supplied by the instructor
 ```
 
 - those on Windows please use MobaXterm: click on Session | SSH, and then fill in the Remote host name
@@ -75,6 +75,6 @@ If you are trying to ssh into the training cluster and you get one of these erro
 - *"Network error: Connection timed out"*
 - *"Connection refused"*
 
-and you are 100% certain that you type the password correctly, we might need to check if your IP address
-is blocked after too many attempts to log in. Please go to https://whatismyipaddress.com and tell us your
-IPv4 address so that we could whitelist it.
+and you are 100% certain that you type the password correctly, we might need to check if your IP address is
+blocked after too many attempts to log in. Please go to {{<a "https://whatismyipaddress.com"
+"https://whatismyipaddress.com">}} and tell us your IPv4 address so that we could whitelist it.

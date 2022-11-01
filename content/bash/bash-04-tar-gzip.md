@@ -19,48 +19,53 @@ very poorly, sometimes bringing the I/O system to a halt. For this reason, we st
 not store many thousands of small files -- instead you should pack them into a small number of large
 archives. This is where the archiving tool `tar` comes in handy.
 
-## Working with `tar` and `gzip/gunzip` (8 min)
+## Working with `tar` and `gzip/gunzip`
 
-<!-- Let's download some files in Windows' ZIP format: -->
+**Covered topics**: `tar` and `g(un)zip`.
 
-<!-- ```sh -->
-<!-- $ wget http://bit.ly/bashfile -O bfiles.zip -->
-<!-- $ unzip bfiles.zip -->
-<!-- $ rm bfiles.zip -->
-<!-- $ ls -->
-<!-- $ ls data-shell -->
-<!-- ``` -->
+Let's download some files in Windows' ZIP format:
 
-<!-- ZIP is a compression format from Windows, and it is not very popular in the Unix world. Let's archive the -->
-<!-- directory `data-shell` using Unix's native `tar` command: -->
+```sh
+$ wget http://bit.ly/bashfile -O bfiles.zip
+$ unzip bfiles.zip
+$ rm bfiles.zip
+$ ls
+$ ls data-shell
+```
 
-<!-- ```sh -->
-<!-- $ tar cvf bfiles.tar data-shell/ -->
-<!-- $ gzip bfiles.tar -->
-<!-- ``` -->
+ZIP is a compression format from Windows, and it is not very popular in the Unix world. Let's archive the
+directory `data-shell` using Unix's native `tar` command:
 
-<!-- You can also create a gzipped TAR file in one step: -->
+```sh
+$ tar cvf bfiles.tar data-shell/
+$ gzip bfiles.tar
+```
 
-<!-- ```sh -->
-<!-- $ rm bfiles.tar.gz -->
-<!-- $ tar cvfz bfiles.tar.gz data-shell/ -->
-<!-- ``` -->
+You can also create a gzipped TAR file in one step:
 
-<!-- Let's remove the directory and the original ZIP file (if still there), and extract directory from our new -->
-<!-- archive: -->
+```sh
+$ rm bfiles.tar.gz
+$ tar cvfz bfiles.tar.gz data-shell/
+```
 
-<!-- ```sh -->
-<!-- $ /bin/rm -r data-shell/ bfiles.zip -->
-<!-- $ tar xvfz bfiles.tar.gz -->
-<!-- ``` -->
+Let's remove the directory and the original ZIP file (if still there), and extract directory from our new
+archive:
+
+```sh
+$ /bin/rm -r data-shell/ bfiles.zip
+$ tar xvfz bfiles.tar.gz
+```
 
 <!-- > **Exercise:** Let's create a new subdirectory `~/tmp` with 1000 files inside using `touch a{000..999}` -->
 <!-- > and then gzip-archive that subdirectory. -->
 
-Covered topics: `tar` and `g(un)zip`.
-
 <!-- 04-archives.mkv -->
-{{< yt ckD5jOCnyBU 63 >}}
+<!-- {{< yt ckD5jOCnyBU 63 >}} -->
+You can {{<a "https://youtu.be/ckD5jOCnyBU" "watch a video for this topic">}} after the workshop.
+
+
+
+
 
 ## Managing many files with Disk ARchiver (DAR)
 

@@ -4,37 +4,36 @@ slug = "bash-05-file-transfer"
 weight = 5
 +++
 
-## Transferring files and folders with `scp` (5 min)
+## Transferring files and folders with `scp`
 
-<!-- To copy a single file to/from the cluster, we can use `scp`: -->
+To copy a single file to/from the cluster, we can use `scp`:
 
-<!-- ```sh -->
-<!-- [local]$ scp /path/to/local/file.txt userXXX@206.12.98.246:/path/on/remote/computer -->
-<!-- [local]$ scp local-file.txt userXXX@206.12.98.246:   # will put into your remote home -->
-<!-- [local]$ scp userXXX@206.12.98.246:/path/on/remote/computer/file.txt /path/to/local/ -->
-<!-- ``` -->
-
-<!-- 05-scp.mkv -->
-{{< yt 6iqwJWGJ6es 63 >}}
-
+```sh
+[local]$ scp /path/to/local/file.txt userXXX@bobthewren.c3.ca:/path/on/remote/computer
+[local]$ scp local-file.txt userXXX@bobthewren.c3.ca:   # will put into your remote home
+[local]$ scp userXXX@bobthewren.c3.ca:/path/on/remote/computer/file.txt /path/to/local/
+```
 To recursively copy a directory, we just add the `-r` (recursive) flag:
 
 ```sh
-[local]$ scp -r some-local-folder/ userXXX@206.12.98.246:target-directory/
+[local]$ scp -r some-local-folder/ userXXX@bobthewren.c3.ca:target-directory/
 ```
 
 You can also use wildcards to transfer multiple files:
 
 ```sh
-[local]$ scp centos@206.12.98.246:start*.sh .
-~```
+[local]$ scp centos@bobthewren.c3.ca:start*.sh .
+```
 
 With MobaXterm in Windows, you can actually copy files by dragging them between your desktop and the left
 pane when you are logged into the cluster (no need to type any commands), or you can click the
 download/upload buttons.
 
-> **Exercise:** try to transfer a file from your laptop to the cluster. Then try moving another file in
-> the opposite direction.
+<!-- 05-scp.mkv -->
+<!-- {{< yt 6iqwJWGJ6es 63 >}} -->
+You can {{<a "https://youtu.be/6iqwJWGJ6es" "watch a video for this topic">}} after the workshop.
+
+
 
 
 
@@ -47,7 +46,7 @@ we're simply not sure which files we want to transfer yet. `sftp` is an interact
 and uploading files. Let's connect to a cluster with `sftp`:
 
 ```sh
-[local]$ sftp userXXX@206.12.98.246
+[local]$ sftp userXXX@bobthewren.c3.ca
 ```
 
 This will start what appears to be a shell with the prompt `sftp>`. However, we only have access to a
@@ -121,3 +120,12 @@ To quit, type `exit` or `bye`.
 **Note on syncing**: there also a command `rsync` for synching two directories. It is super useful,
 especially for work in progress. For example, you can use it the download all the latest PNG images from
 your working directory on the cluster.
+
+{{< question num=16 >}}
+Copy a file to/from the training cluster using either `scp` or `sftp`. (no need to type any answer)
+{{< /question >}}
+
+{{< question num="`rsync`" >}}
+Bring up the manual page on `rsync`, then use it to synchronize a directory from the training cluster. (no need to type
+any answer)
+{{< /question >}}

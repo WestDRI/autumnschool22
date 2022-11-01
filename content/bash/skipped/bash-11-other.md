@@ -7,7 +7,7 @@ weight = 11
 This page covers tools that we do not normally teach in our Linux command line introduction but we would
 like to mention as we find them useful.
 
-# Fuzzy finder (6 min)
+# Fuzzy finder
 
 Fuzzy finder `fzf` is a third-party tool, not installed by default. With basic usage, it does interactive
 processing of standard input. At a more advanced level (not covered in the video below), it provides key
