@@ -9,8 +9,8 @@ weight = 6
 **Covered topics**: working with multiple files using wildmasks, standard output redirection to a file,
 constructing complex commands with Unix pipes.
 
-* open http://bit.ly/bashfile in your browser, it'll download the file bfiles.zip
-* unpack bfiles.zip to your Desktop; you should see ~/Desktop/data-shell
+* open http://bit.ly/bashfile in your browser, it'll download the file `bfiles.zip`
+* unpack `bfiles.zip` to your home directory; you should see `~/data-shell`
 
 ```sh
 $ cd <parentDirectoryOf`data-shell`>
@@ -47,13 +47,13 @@ What code would you use to move all the `.dat` files into the analyzed sub-direc
 {{< question num=11 >}}
 In a directory we want to find the 3 files that have the least number of lines. Which command would work for
 this?
-1. `wc-l*>sort-n>head-3`
-2. `wc-l*|sort-n|head1-3`
-3. `wc-l*|head-3|sort-n`
-4. `wc-l*|sort-n|head-3`
+1. `wc -l * > sort -n > head -3`
+2. `wc -l * | sort -n | head 1-3`
+3. `wc -l * | head -3 | sort -n`
+4. `wc -l * | sort -n | head -3`
 {{< /question >}}
 
-{{< question num=15 >}}
+{{< question num="`ps`" >}}
 Use `ps` command to see how many processes you are running on the training cluster. Explore its flags. (no need to type
 any answer)
 {{< /question >}}
@@ -68,16 +68,16 @@ Combine `ls` and `head` and/or `tail` into a one-line command to show three larg
 given directory. Paste your answer into the chat.
 {{< /question >}}
 
-{{< question num=23 >}}
+{{< question num="`echo with wildcards`" >}}
 What will the command `echo directoryName/*` do? Try answering without running it. How is this output different from `ls
 directoryName` and `ls directoryName/*`?
 {{< /question >}}
 
-{{< question num=27 >}}
+{{< question num="`redirection`" >}}
 Redirection `1>` and `2>` and `/dev/null` (no need to type any answer)
 {{< /question >}}
 
-{{< question num=28 >}}
+{{< question num="`command separators`" >}}
 `;` vs. `&&` separators, e.g. `mkdirr tmp; cd tmp` (no need to type any answer)
 {{< /question >}}
 

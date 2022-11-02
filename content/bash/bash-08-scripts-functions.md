@@ -124,12 +124,12 @@ fi
 
 Some examples of conditions (**make sure to have spaces around each bracket!**):
 
-* [ $myvar == 'text' ] checks if variable is equal to 'text'
-* [ $myvar == number ] checks if variable is equal to number
-* [ -e fileOrDirName ] checks if fileOrDirName exists
-* [ -d name ] checks if name is a directory
-* [ -f name ] checks if name is a file
-* [ -s name ] checks if file name has length greater than 0
+- `[ $myvar == 'text' ]` checks if variable is equal to 'text'
+- `[ $myvar == number ]` checks if variable is equal to number
+- `[ -e fileOrDirName ]` checks if fileOrDirName exists
+- `[ -d name ]` checks if name is a directory
+- `[ -f name ]` checks if name is a file
+- `[ -s name ]` checks if file name has length greater than 0
 
 
 {{< question num=23 >}}
@@ -176,19 +176,16 @@ $ env         # same
 $ unset myvar   # unset a variable
 ```
 
-{{< question num=25 >}}
-Pasting variables into strings:
+{{< question num="`using a variable inside a string`" >}}
 ```sh
 var="sun"
 echo $varshine
 echo ${var}shine
 echo "$var"shine
 ```
-(no need to type any answer)
 {{< /question >}}
 
-{{< question num=29 >}}
-Variable manipulation:
+{{< question num="`variable manipulation`" >}}
 ```sh
 myvar="hello"
 echo $myvar
@@ -198,7 +195,6 @@ echo ${myvar:2:3}    # 3 characters starting from character 2
 echo ${myvar/l/L}    # replace the first match of a pattern
 echo ${myvar//l/L}   # replace all matches of a pattern
 ```
-(no need to type any answer)
 {{< /question >}}
 
 Environment variables are those that affect the behaviour of the shell and user interface:
@@ -287,7 +283,7 @@ renaming them.
 
 
 
-{{< question num=40 >}}
+{{< question num="`archive()`" >}}
 Write a function `archive()` to replace directories with their gzipped archives.
 ```sh
 $ ls -F
@@ -296,7 +292,6 @@ $ archive chapter* notes/
 $ ls
 chapter1.tar.gz  chapter2.tar.gz  notes.tar.gz
 ```
-(no need to type any answer)
 {{< /question >}}
 
 
@@ -308,7 +303,7 @@ chapter1.tar.gz  chapter2.tar.gz  notes.tar.gz
 
 
 
-{{< question num=39b >}}
+{{< question num="`countfiles()`" >}}
 Write a function `countfiles()` to count files in all directories passed to it as arguments (need to loop through all
 arguments). At the beginning add the check:
 ```sh

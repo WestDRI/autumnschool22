@@ -109,9 +109,9 @@ To quit, type `exit` or `bye`.
   to every line.
 * On a Unix system, every line in a file ends with a `\n` (newline). On Windows, every line in a file
   ends with a `\r\n` (carriage return + newline). This causes problems sometimes.
-* You can identify if a file has Windows line endings with `cat -A filename`. A file with Windows line
-  endings will have `^M$` at the end of every line. A file with Unix line endings will have `$` at the
-  end of a line.
+* You can identify if a file has Windows line endings with `cat -A filename` (available in some *bash*
+  implementations). A file with Windows line endings will have `^M$` at the end of every line. A file with
+  Unix line endings will have `$` at the end of a line.
 * Though most modern programming languages and software handles this correctly, in some rare instances,
   you may run into an issue. The solution is to convert a file from Windows to Unix encoding with the
   `dos2unix filename` command. Conversely, to convert back to Windows format, you can run `unix2dos
@@ -121,7 +121,7 @@ To quit, type `exit` or `bye`.
 especially for work in progress. For example, you can use it the download all the latest PNG images from
 your working directory on the cluster.
 
-{{< question num=16 >}}
+{{< question num="`scp and sftp`" >}}
 Copy a file to/from the training cluster using either `scp` or `sftp`. (no need to type any answer)
 {{< /question >}}
 

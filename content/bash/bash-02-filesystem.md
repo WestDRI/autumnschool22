@@ -8,6 +8,11 @@ weight = 2
 
 **Covered topics**: `pwd`, `ls`, absolute vs. relative paths, command flags, `cd`, path shortcuts.
 
+- pwd = Print Working Directory
+- ls = LiSt everything inside the current/given directory
+- cd = Change Directory
+
+
 Click on a triangle to expand a question:
 
 {{< question num=1 >}}
@@ -78,7 +83,7 @@ $ ls --help
 ```
 
 {{< question num="`-h`" >}}
-Looking at `ls` documentation, what does the -h (--human-readable) option do?
+Check the manual page for `ls` command: what does the `-h` (`--human-readable`) option do?
 {{< /question >}}
 
 

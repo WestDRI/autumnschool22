@@ -12,8 +12,8 @@ $ ls   # shows basilisk.dat unicorn.dat -- let's pretend there are several hundr
 ```
 
 Let's say we want to rename:
-- basilisk.dat ⮕ original-basilisk.dat
-- unicorn.dat ⮕ original-unicorn.dat
+- basilisk.dat &nbsp;⮕&nbsp; original-basilisk.dat
+- unicorn.dat &nbsp;⮕&nbsp; original-unicorn.dat
 
 We could try
 
@@ -50,7 +50,7 @@ $ for f in *.dat
 > done
 ```
 
-Now to renaming basilisk.dat ⮕ original-basilisk.dat, unicorn.dat ⮕ original-unicorn.dat:
+Now to renaming basilisk.dat &nbsp;⮕&nbsp; original-basilisk.dat, unicorn.dat &nbsp;⮕&nbsp; original-unicorn.dat:
 ```sh
 $ for f in *.dat
 > do
@@ -103,7 +103,7 @@ done
    saved into a file called `sugar.dat`
 {{< /question >}}
 
-{{< question num=13 >}}
+{{< question num="`diff`" >}}
 Using `diff` to compare files and directories. (no need to type any answer)
 {{< /question >}}
 

@@ -35,7 +35,7 @@ $ grep pattern *.txt   # the last argument will expand to the list of *.txt file
 
 
 
-{{< question num=35 >}}
+{{< question num="`dissecting a haiku`" >}}
 ```txt
 The Tao that is seen
 Is not the true Tao, until
@@ -96,7 +96,7 @@ $ grep elegant $(find . -name '*.txt')   # will look for 'elegant' inside all *.
 
 
 
-{{< question num=36 >}}
+{{< question num="`somewhat tricky problem`" >}}
 The `-v` flag to `grep` inverts pattern matching, so that only lines that do not match the pattern are printed. Given
 that, which of the following commands will find all files in `/data` whose names end in `ose.dat` (e.g., `sucrose.dat`
 or `maltose.dat`), but whose names do not contain the word `temp`?
@@ -168,12 +168,12 @@ it into a list of arguments that is then passed to `grep`:
 find . -name "*.txt" | xargs grep pattern   # search for `pattern` inside all those files (`grep` does not take a list of files as standard input)
 ```
 
-{{< question num=37 >}}
+{{< question num="`recursive search`" >}}
 Write a one-line command that will search for a string in all files in the current directory and all its subdirectories,
 and will hide errors (e.g. due to permissions).
 {{< /question >}}
 
-{{< question num=38 >}}
+{{< question num="`command substitution`" >}}
 Play with command substitution using both `$(...)` and ``` `...` ``` syntax. (no need to type any answer)
 {{< /question >}}
 

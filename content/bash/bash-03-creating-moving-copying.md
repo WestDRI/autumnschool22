@@ -58,7 +58,7 @@ $ rm quotes.txt
 $ ls quotes.txt thesis/quotations.txt
 ```
 
-More than two arguments to mv/cp:
+More than two arguments to `mv`/`cp`:
 
 ```sh
 $ touch  intro.txt  methods.txt  index.txt   # create three empty files

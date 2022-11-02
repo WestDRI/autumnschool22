@@ -15,9 +15,9 @@ We use HPC systems (clusters) to do computing beyond the scale of a desktop. For
   from hours to minutes.
 
 The use of HPC in modeling complex physical phenomena such as astrophysical processes, weather, fluid
-dynamics, molecular interactions, and engineering design is well know to researchers in those
-fields. More recently, HPC is being used by researchers in other fields from genomics and medical imaging
-to social sciences and humanities.
+dynamics, molecular interactions, and engineering design is well known to researchers in those fields. More
+recently, HPC is being used by researchers in other fields from genomics and medical imaging to social
+sciences and humanities.
 
 ## Why the shell?
 
@@ -35,10 +35,9 @@ is a shell around the operating system kernel, surrounded itself by utilities an
 commands are often very cryptic, and this is by design to avoid too much typing.
 
 We use the Unix shell because it is very powerful, great for automation and for creating reproducible
-workflows, and is necessary to work on larger Unix systems. *Bash* is one of many Unix shell
-implementations out there. It is a default on Compute Canada systems, but you can easily switch to a
-different shell such as *tcsh*, *zsh*, etc. The main difference between these is a slight change in the
-command syntax.
+workflows, and is necessary to work on larger Unix systems. *Bash* is one of many Unix shell implementations
+out there. It is a default on the Alliance systems, but you can easily switch to a different shell such as
+*tcsh*, *zsh*, etc. The main difference between these is a slight change in the command syntax.
 
 For the hands-on work, we have set up a small training cluster *bobthewren.c3.ca* that features the same
 software setup as our real production clusters. In the ["Introduction to HPC"](../../hpc-menu) course you will
