@@ -34,16 +34,12 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 
 <!-- ~/training/softwareCarpentry/python04.md -->
 
-{{<cor>}}Zoom: morning session (Marie){{</cor>}} {{<s>}} {{<cgr>}}9:30am-12:30pm Pacific{{</cgr>}} \
+{{<cor>}}Zoom: morning session (Marie){{</cor>}} {{<s>}} {{<cgr>}}9:30am-11:00am Pacific{{</cgr>}} \
 {{<nolinktitle>}}Setup and various ways to run Python{{</nolinktitle>}} \
 {{<nolinktitle>}}Variables and assignment, data types and type conversion{{</nolinktitle>}} \
 {{<nolinktitle>}}Built-in functions and help{{</nolinktitle>}} \
-{{<nolinktitle>}}Conditionals{{</nolinktitle>}} \
-{{<nolinktitle>}}Lists{{</nolinktitle>}} \
-{{<nolinktitle>}}Loops{{</nolinktitle>}} \
-{{<nolinktitle>}}Dictionaries{{</nolinktitle>}} \
-{{<nolinktitle>}}Writing functions{{</nolinktitle>}} \
-{{<nolinktitle>}}Variable scope and floating precision{{</nolinktitle>}}
+{{<nolinktitle>}}Conditionals{{</nolinktitle>}}
+
 <!-- {{<linktitle url="../python/python-01-setup" text="Setup and various ways to run Python">}} \ -->
 <!-- {{<linktitle url="../python/python-02-variables" text="Variables and data types">}} \ -->
 <!-- {{<linktitle url="../python/python-03-builtin" text="Built-in functions and help">}} \ -->
@@ -54,8 +50,19 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 <!-- {{<linktitle url="../python/python-08-functions" text="Writing functions">}} \ -->
 <!-- {{<linktitle url="../python/python-09-scope" text="Variable scope and floating precision">}} -->
 
-{{<cor>}}Zoom: afternoon session (Alex){{</cor>}} {{<s>}} {{<cgr>}}1:30am-4:30pm Pacific{{</cgr>}} \
+{{<cor>}}Zoom: morning session (Alex){{</cor>}} {{<s>}} {{<cgr>}}11:00am-12:30pm Pacific{{</cgr>}} \
+{{<nolinktitle>}}Lists{{</nolinktitle>}} \
+{{<nolinktitle>}}Loops{{</nolinktitle>}} \
+{{<nolinktitle>}}Dictionaries{{</nolinktitle>}} \
+{{<nolinktitle>}}Writing functions{{</nolinktitle>}} \
+{{<nolinktitle>}}Variable scope and floating precision{{</nolinktitle>}} \
 {{<nolinktitle>}}Libraries, virtual environments and packaging{{</nolinktitle>}} \
+{{<nolinktitle>}}Quick overview of some of the libraries{{</nolinktitle>}}
+
+
+
+
+{{<cor>}}For spring/summer school{{</cor>}} \
 {{<nolinktitle>}}Numpy{{</nolinktitle>}} \
 {{<nolinktitle>}}Plotting with matplotlib{{</nolinktitle>}} \
 {{<nolinktitle>}}Pandas dataframes{{</nolinktitle>}} \

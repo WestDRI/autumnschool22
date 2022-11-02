@@ -6,7 +6,7 @@ weight = 3
 
 ## Creating things
 
-Covered topics: creating directories with `mkdir`, using `nano` text editor, deleting with `rm` and
+**Covered topics**: creating directories with `mkdir`, using `nano` text editor, deleting with `rm` and
 `rmdir`.
 
 ```sh
@@ -37,7 +37,7 @@ You can {{<a "https://youtu.be/_tJyfkG-_KA" "watch a video for this topic">}} af
 
 ## Moving and copying things
 
-Covered topics: `mv` and `cp`.
+**Covered topics**: `mv` and `cp`.
 
 ```sh
 $ mkdir thesis
@@ -58,7 +58,7 @@ $ rm quotes.txt
 $ ls quotes.txt thesis/quotations.txt
 ```
 
-More than two arguments to `mv`/`cp`:
+More than two arguments to `mv` and `cp`:
 
 ```sh
 $ touch  intro.txt  methods.txt  index.txt   # create three empty files
@@ -90,7 +90,7 @@ You can {{<a "https://youtu.be/QJGmgfwgBLk" "watch a video for this topic">}} af
 
 ## Aliases
 
-Aliases are one-line shortcuts/abbreviation to avoid typing a longer command, e.g.
+Aliases are one-line shortcuts/abbreviations to avoid typing a longer command, e.g.
 
 ```sh
 $ alias ls='ls -aFh'
