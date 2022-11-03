@@ -152,7 +152,7 @@ $ echo myvar     # will print the string 'myvar'
 $ echo $myvar    # will print the value of myvar
 ```
 
-Sometimes you see notation:
+Sometimes you can see the notation:
 
 ```sh
 $ export myvar=3

@@ -9,8 +9,8 @@ weight = 6
 **Covered topics**: working with multiple files using wildmasks, standard output redirection to a file,
 constructing complex commands with Unix pipes.
 
-* open http://bit.ly/bashfile in your browser, it'll download the file `bfiles.zip`
-* unpack `bfiles.zip` to your home directory; you should see `~/data-shell`
+1. open http://bit.ly/bashfile in your browser, it'll download the file `bfiles.zip`
+2. unpack `bfiles.zip` to your home directory; you should see `~/data-shell`
 
 ```sh
 $ cd <parentDirectoryOf`data-shell`>
@@ -18,13 +18,13 @@ $ ls data-shell
 $ cd data-shell/molecules
 $ ls
 $ ls p*   # this is a Unix wildcard; bash will expand it to 'ls pentane.pdb propane.pdb'
-$ ls *.pdb   # another wildcard, will expand to "ls cubane.pdb ethane.pdb ...'
+$ ls *.pdb      # another wildcard, will expand to "ls cubane.pdb ethane.pdb ...'
 $ wc -l *.pdb   # list number of lines in each file
 $ wc -l *.pdb > lengths.txt   # redirect the output of the last command into a file
 $ more lengths.txt
 $ sort -n lengths.txt   # sort numerically, i.e. 2 will go before 10, and 6 before 22
 $ sort -n lengths.txt > sorted.txt
-$ head -1 sorted.txt   # show the length of the shortest (number of lines) file
+$ head -1 sorted.txt    # show the length of the shortest (number of lines) file
 $ wc -l *.pdb | sort -n | head -1   # three commands can be shortened to one - this is called Unix pipe
 ```
 

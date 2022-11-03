@@ -107,7 +107,7 @@ done
 Using `diff` to compare files and directories. (no need to type any answer)
 {{< /question >}}
 
-{{< question num=14 >}}
+{{< question num="`nested braces`" >}}
 Discuss brace expansion. Try nested braces. Paste an example that works.
 What will this command do:
 ```sh
@@ -118,12 +118,19 @@ touch 2022-May-{0{1..9},{10..30}}.md
 {{< question num=20 >}}
 Write a loop that concatenates all .pdb files in `data-shell/molecules` subdirectory into one file called
 `allmolecules.txt`, prepending each fragment with the name of the corresponding .pdb file, and separating different
-files with an empty line. Run the loop, make sure it works, bring it up with the "*up arrow*" key and paste into the
+files with an empty line. Run the loop, make sure it works, bring it up with the &nbsp;**↑**&nbsp; key and paste into the
 chat.
 {{< /question >}}
 
-{{< question num=21 >}}
-Use Ctrl-C to kill an infinite (or very long) loop. (no need to type any answer)
+{{< question num="`infinite loop`" >}}
+Use Ctrl-C to kill an infinite (or very long) loop or an unfinished command.
+```sh
+while true
+do
+    echo "Press [ctrl+c] to stop"
+	sleep 1
+done
+```
 {{< /question >}}
 
 {{< question num="`looping through a collection`" >}}
