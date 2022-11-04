@@ -62,13 +62,13 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 
 
 
-{{<corgray>}}Python level 2 (spring/summer school) will cover{{</corgray>}} \
-{{<nolinktitle>}}Numpy{{</nolinktitle>}} \
-{{<nolinktitle>}}Plotting with matplotlib{{</nolinktitle>}} \
-{{<nolinktitle>}}Pandas dataframes{{</nolinktitle>}} \
-{{<nolinktitle>}}Multidimensional labeled arrays and datasets with xarray{{</nolinktitle>}} \
-{{<nolinktitle>}}Running Python scripts from the command line{{</nolinktitle>}} \
-{{<nolinktitle>}}Basics of object-oriented programming in Python{{</nolinktitle>}}
+<!-- {{<corgray>}}Python level 2 (spring/summer school) will cover{{</corgray>}} \ -->
+<!-- {{<nolinktitle>}}Numpy{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Plotting with matplotlib{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Pandas dataframes{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Multidimensional labeled arrays and datasets with xarray{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Running Python scripts from the command line{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Basics of object-oriented programming in Python{{</nolinktitle>}} -->
 <!-- {{<linktitle url="../python/python-10-libraries" text="Libraries, virtual environments and packaging">}} \ -->
 <!-- {{<linktitle url="../python/python-11-numpy" text="Numpy">}} \ -->
 <!-- {{<linktitle url="../python/python-12-matplotlib" text="Plotting with matplotlib">}} \ -->
