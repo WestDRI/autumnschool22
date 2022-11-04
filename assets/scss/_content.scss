@@ -420,6 +420,16 @@ ul {
   }
 }
 
+.corgray {
+  color: #3f3f40  ;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 0rem;
+  @media only screen and (max-width : 480px) {
+    font-size: 1.5rem;
+  }
+}
+
 .cbr {
   color: #3f3f40;
   font-size: 1.9rem;

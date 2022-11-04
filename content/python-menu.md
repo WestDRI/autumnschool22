@@ -62,7 +62,7 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 
 
 
-{{<cor>}}For spring/summer school{{</cor>}} \
+{{<corgray>}}Python level 2 (spring/summer school) will cover{{</corgray>}} \
 {{<nolinktitle>}}Numpy{{</nolinktitle>}} \
 {{<nolinktitle>}}Plotting with matplotlib{{</nolinktitle>}} \
 {{<nolinktitle>}}Pandas dataframes{{</nolinktitle>}} \
