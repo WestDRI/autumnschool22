@@ -34,7 +34,8 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 
 <!-- ~/training/softwareCarpentry/python04.md -->
 
-{{<cor>}}Zoom: morning session (Marie){{</cor>}} {{<s>}} {{<cgr>}}9:30am-11:00am Pacific{{</cgr>}} \
+{{<cor>}}Zoom: morning session (Marie){{</cor>}} \
+{{<cgr>}}9:30am-11:00am Pacific{{</cgr>}} \
 {{<nolinktitle>}}Setup and various ways to run Python{{</nolinktitle>}} \
 {{<nolinktitle>}}Variables and assignment, data types and type conversion{{</nolinktitle>}} \
 {{<nolinktitle>}}Built-in functions and help{{</nolinktitle>}} \
@@ -50,7 +51,8 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 <!-- {{<linktitle url="../python/python-08-functions" text="Writing functions">}} \ -->
 <!-- {{<linktitle url="../python/python-09-scope" text="Variable scope and floating precision">}} -->
 
-{{<cor>}}Zoom: morning session (Alex){{</cor>}} {{<s>}} {{<cgr>}}11:00am-12:30pm Pacific{{</cgr>}} \
+{{<cor>}}Zoom: morning session (Alex){{</cor>}} \
+{{<cgr>}}11:00am-12:30pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Lists{{</nolinktitle>}} \
 {{<nolinktitle>}}Loops{{</nolinktitle>}} \
 {{<nolinktitle>}}Dictionaries{{</nolinktitle>}} \
