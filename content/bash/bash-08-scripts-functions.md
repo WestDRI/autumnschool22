@@ -1,5 +1,5 @@
 +++
-title = "Scripts and functions and variables"
+title = "Scripts, functions, and variables"
 slug = "bash-08-scripts-functions"
 weight = 8
 +++
