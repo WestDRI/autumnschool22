@@ -20,7 +20,7 @@ This introductory course does not assume any prior knowledge: it is aimed at set
 
 **Instructor**: Marie-Helene Burle (SFU)
 
-**Prerequisites:** none.
+**Prerequisites:** None.
 
 **Software**: We will provide an RStudio server on a training cluster, so you don't need to install anything on your computer.
 

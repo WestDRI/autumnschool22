@@ -34,8 +34,8 @@ By participating in this workshop, you'll learn how to:
 
 **Prerequisites:**
 
-- basic familiarity with Python,
-- familiarity with Numpy, and/or Scikit-learn is beneficial
+- Basic familiarity with Python,
+- Familiarity with Numpy, and/or Scikit-learn is beneficial.
 
 **Software**: All attendees will need a remote secure shell (SSH) client installed on their computer in
 order to participate in the course exercises. On Windows we recommend

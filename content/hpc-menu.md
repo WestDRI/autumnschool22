@@ -23,7 +23,7 @@ This course is an introduction to High-Performance Computing on Compute Canada c
 
 **Instructor**: Alex Razoumov (SFU)
 
-**Prerequisites:** working knowledge of the Linux Bash shell. We will provide guest accounts to one of our Linux systems.
+**Prerequisites:** Working knowledge of the Linux Bash shell. We will provide guest accounts to one of our Linux systems.
 
 **Software**: All attendees will need a remote secure shell (SSH) client installed on their computer in order to
 participate in the course exercises. On Windows we recommend

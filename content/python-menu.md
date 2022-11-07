@@ -23,7 +23,7 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 
 **Instructors**: Alex Razoumov & Marie-Helene Burle (SFU)
 
-**Prerequisites:** none.
+**Prerequisites:** None.
 
 **Software**: We will be using Python on our training cluster, so no need to install it on your computer. However, in
   the long run you would probably benefit from Python on your computer, so you might want to look into this. During the
