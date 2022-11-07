@@ -22,18 +22,14 @@ This introductory course does not assume any prior knowledge. It is aimed at set
 
 **Prerequisites:** none.
 
-<!-- - R: why and for whom? -->
-<!-- why: free, open source, many packages, particularly for statistical modelling -->
-<!-- for whom: tabular data, data science, biology, linguistics -->
-<!-- some downsides too: slow, memory intensive, inconsistent, written by data scientists, not computer scientists -->
-<!-- - What type of programming language is R? -->
-<!-- functional -->
-<!-- object-oriented -->
-<!-- R follows a copy-on-modify system -->
-<!-- - Resources -->
-<!-- - R: the basics -->
-<!-- - Packages -->
-<!-- - The tidyverse -->
-
 **Software**: We will provide an RStudio server on a training cluster, so you don't need to install anything on your computer.
 
+{{<cor>}}Zoom{{</cor>}} \
+{{<cgr>}}9:30am-12:30am Pacific{{</cgr>}} \
+{{<nolinktitle>}}Opening session{{</nolinktitle>}} \
+{{<nolinktitle>}}R: why and for whom?{{</nolinktitle>}} \
+{{<nolinktitle>}}Resources{{</nolinktitle>}} \
+{{<nolinktitle>}}R: the basics{{</nolinktitle>}} \
+{{<nolinktitle>}}Packages{{</nolinktitle>}} \
+{{<nolinktitle>}}The tidyverse{{</nolinktitle>}} \
+{{<nolinktitle>}}Writing efficient R code{{</nolinktitle>}}
