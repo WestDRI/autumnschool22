@@ -22,9 +22,6 @@ This introductory course does not assume any prior knowledge. It is aimed at set
 
 **Prerequisites:** none.
 
-**Software**: 
-
-
 <!-- - R: why and for whom? -->
 <!-- why: free, open source, many packages, particularly for statistical modelling -->
 <!-- for whom: tabular data, data science, biology, linguistics -->
@@ -37,4 +34,6 @@ This introductory course does not assume any prior knowledge. It is aimed at set
 <!-- - R: the basics -->
 <!-- - Packages -->
 <!-- - The tidyverse -->
+
+**Software**: We will provide an RStudio server on a training cluster, so you don't need to install anything on your computer.
 
