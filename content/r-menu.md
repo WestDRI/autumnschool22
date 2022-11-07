@@ -14,9 +14,9 @@ There is a single {{<a "https://forms.gle/NZhzRU5o8ti8VhVJ7" "free registration"
 
 ---
 
-{{<a "https://www.r-project.org" "R">}} is a free and open-source programming language for statistical computing, modelling, and graphics. One of the appeals of the language is the large collection of packages users have built, particularly in the fields of statistics, biology, bioinformatics, data mining, data analysis, and linguistics.
+{{<a "https://www.r-project.org" "R">}} is a free and open-source programming language for statistical computing, modelling, and graphics, with an unbeatable collection of statistical packages. It is extremely popular in some academic fields such as statistics, biology, bioinformatics, data mining, data analysis, and linguistics.
 
-This introductory course does not assume any prior knowledge. It is aimed at setting the foundations on which more advanced courses will build later in the year.
+This introductory course does not assume any prior knowledge: it is aimed at setting the foundations on which more advanced courses will build later in the year.
 
 **Instructor**: Marie-Helene Burle (SFU)
 
