@@ -11,7 +11,7 @@ $ wget http://bit.ly/bashfile -O bfiles.zip
 $ unzip bfiles.zip
 ```
 
-(alternative download link https://rcmodules22.netlify.app/files/bfiles.zip)
+(alternative download link https://autumnschool2022.westdri.ca/files/bfiles.zip)
 
 Unlike an SSD or a hard drive on your laptop, the filesystem on HPC cluster was designed to store large files,
 ideally with parallel I/O. As a result, it handles any large number of small I/O requests (reads or writes)
