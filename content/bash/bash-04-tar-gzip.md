@@ -4,7 +4,7 @@ slug = "bash-04-tar-gzip"
 weight = 4
 +++
 
-In this video we will be working with a ZIP file that you can download and unpack with
+In this section we will be working with a ZIP file that you can download and unpack with
 
 ```sh
 $ wget http://bit.ly/bashfile -O bfiles.zip
