@@ -26,8 +26,8 @@ There are many ways to run Python commands:
 
 Today's options:
 
-1. **First option** - In our earlier courses you have used a remote cluster via SSH. We have another, larger cluster for
-   you today called `uu.c3.ca`, and you can work inside an interactive job there:
+1. **First option** - In our earlier courses you have used a remote cluster via SSH. We have another, larger
+   cluster for you today called `bobthewren.c3.ca`, and you can work inside an interactive job there:
 
 ```sh
 $ salloc --time=03:00:00 --mem=3600
@@ -43,10 +43,10 @@ Working in the terminal, you won't have access to all the bells and whistles of 
 to plot matplotlib graphics into remote PNG files and then download them to view locally on your computer. On the other
 hand, this option most closely resembles working in the terminal on a remote HPC cluster.
 
-2. **Second option** - Use JupyterHub on our training cluster: point your browser to https://uu.c3.ca, log in with
-   yesterday's username and today's password, then launch a Jupyter Hub server with time = ***6 hours***, **1 CPU
-   core**, memory = ***3600 MB***, GPU configuration = ***None***, user interface = ***JupyterLab***
-   ![Submissions form](/img/jupyterlab.png)
+2. **Second option** - Use JupyterHub on our training cluster: point your browser to https://bobthewren.c3.ca,
+   log in with yesterday's username and today's password, then launch a Jupyter Hub server with time = ***6
+   hours***, **1 CPU core**, memory = ***3600 MB***, GPU configuration = ***None***, user interface =
+   ***JupyterLab*** ![Submissions form](/img/jupyterlab.png)
 
 3. **Third option** - Use syzygy.ca with one of the following accounts:
     - if you have a university computer ID &nbsp;&rarr;&nbsp; go to <a href="https://syzygy.ca"
