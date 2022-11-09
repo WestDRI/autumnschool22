@@ -4,8 +4,8 @@ slug = "python-10-libraries"
 weight = 10
 +++
 
-<u>For Day 2</u>, we will switch to running inside Jupyter Notebook -- please see option 2 in
-[the Setup section](../python-01-setup#starting-python).
+<!-- <u>For Day 2</u>, we will switch to running inside Jupyter Notebook -- please see option 2 in -->
+<!-- [the Setup section](../python-01-setup#starting-python). -->
 
 
 
@@ -102,3 +102,16 @@ jupyter kernelspec list                  # `climate` should be one of them
 jupyter kernelspec uninstall climate     # remove your environment from Jupyter
 /bin/rm -rf climate
 ```
+
+##  Quick overview of some of the libraries
+
+- `pandas` is a library for working with 2D tables / spreadsheets
+- `numpy` is a library for working with large, multi-dimensional arrays, along with a large collection of
+  linear algebra functions
+  - provides missing uniform collections (arrays) in Python, along with a large number of ways to quickly
+    process these collections ⮕ great for speeding up calculations in Python
+- `matplotlib` and `plotly` are two plotting packages for Python
+- `scikit-image` is a collection of algorithms for image processing
+- `xarray` is a library for working with labelled multi-dimensional arrays and datasets in Python
+  - "`pandas` for multi-dimensional arrays"
+  - great for large scientific datasets; writes into NetCDF files

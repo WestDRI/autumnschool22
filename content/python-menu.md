@@ -41,15 +41,12 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 {{<nolinktitle>}}Built-in functions and help{{</nolinktitle>}} \
 {{<nolinktitle>}}Conditionals{{</nolinktitle>}}
 
+<!-- {{<cor>}}Zoom: first session (Marie){{</cor>}} \ -->
+<!-- {{<cgr>}}9:30am-11:00am Pacific{{</cgr>}} \ -->
 <!-- {{<linktitle url="../python/python-01-setup" text="Setup and various ways to run Python">}} \ -->
 <!-- {{<linktitle url="../python/python-02-variables" text="Variables and data types">}} \ -->
 <!-- {{<linktitle url="../python/python-03-builtin" text="Built-in functions and help">}} \ -->
-<!-- {{<linktitle url="../python/python-04-conditionals" text="Conditionals">}} \ -->
-<!-- {{<linktitle url="../python/python-05-lists" text="Lists">}} \ -->
-<!-- {{<linktitle url="../python/python-06-loops" text="Loops">}} \ -->
-<!-- {{<linktitle url="../python/python-07-dictionaries" text="Dictionaries">}} \ -->
-<!-- {{<linktitle url="../python/python-08-functions" text="Writing functions">}} \ -->
-<!-- {{<linktitle url="../python/python-09-scope" text="Variable scope and floating precision">}} -->
+<!-- {{<linktitle url="../python/python-04-conditionals" text="Conditionals">}} -->
 
 {{<cor>}}Zoom: second session (Alex){{</cor>}} \
 {{<cgr>}}11:00am-12:30pm Pacific{{</cgr>}} \
@@ -58,9 +55,16 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 {{<nolinktitle>}}Dictionaries{{</nolinktitle>}} \
 {{<nolinktitle>}}Writing functions{{</nolinktitle>}} \
 {{<nolinktitle>}}Variable scope and floating precision{{</nolinktitle>}} \
-{{<nolinktitle>}}Libraries, virtual environments and packaging{{</nolinktitle>}} \
-{{<nolinktitle>}}Quick overview of some of the libraries{{</nolinktitle>}}
+{{<nolinktitle>}}Libraries, virtual environments and packaging{{</nolinktitle>}}
 
+<!-- {{<cor>}}Zoom: second session (Alex){{</cor>}} \ -->
+<!-- {{<cgr>}}11:00am-12:30pm Pacific{{</cgr>}} \ -->
+<!-- {{<linktitle url="../python/python-05-lists" text="Lists">}} \ -->
+<!-- {{<linktitle url="../python/python-06-loops" text="Loops">}} \ -->
+<!-- {{<linktitle url="../python/python-07-dictionaries" text="Dictionaries">}} \ -->
+<!-- {{<linktitle url="../python/python-08-functions" text="Writing functions">}} \ -->
+<!-- {{<linktitle url="../python/python-09-scope" text="Variable scope and floating precision">}} \ -->
+<!-- {{<linktitle url="../python/python-10-libraries" text="Libraries, virtual environments and packaging">}} -->
 
 
 
@@ -71,7 +75,6 @@ Note that this course is a prerequisite for our more advanced Python courses lat
 <!-- {{<nolinktitle>}}Multidimensional labeled arrays and datasets with xarray{{</nolinktitle>}} \ -->
 <!-- {{<nolinktitle>}}Running Python scripts from the command line{{</nolinktitle>}} \ -->
 <!-- {{<nolinktitle>}}Basics of object-oriented programming in Python{{</nolinktitle>}} -->
-<!-- {{<linktitle url="../python/python-10-libraries" text="Libraries, virtual environments and packaging">}} \ -->
 <!-- {{<linktitle url="../python/python-11-numpy" text="Numpy">}} \ -->
 <!-- {{<linktitle url="../python/python-12-matplotlib" text="Plotting with matplotlib">}} \ -->
 <!-- {{<linktitle url="../python/python-13-pandas" text="Pandas dataframes">}} \ -->
