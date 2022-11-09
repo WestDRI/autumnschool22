@@ -110,11 +110,11 @@ start a new local or remote shell.
 
 {{< question num="`safer mv and cp`" >}}
 Write simple aliases for safer `mv`, `cp` so that these do not automatically overwrite the target. Hint: use their
-manual pages. Where would you store these aliases? (no need to type any answer)
+manual pages. Where would you store these aliases?
 {{< /question >}}
 
 {{< question num="`safer rm`" >}}
-Write simple alias for safer `rm`. (no need to type any answer)
+Write simple alias for safer `rm`.
 {{< /question >}}
 
 {{< question num=9 >}}

@@ -54,8 +54,7 @@ this?
 {{< /question >}}
 
 {{< question num="`ps`" >}}
-Use `ps` command to see how many processes you are running on the training cluster. Explore its flags. (no need to type
-any answer)
+Use `ps` command to see how many processes you are running on the training cluster. Explore its flags.
 {{< /question >}}
 
 {{< question num=18 >}}
@@ -74,11 +73,11 @@ directoryName` and `ls directoryName/*`?
 {{< /question >}}
 
 {{< question num="`redirection`" >}}
-Redirection `1>` and `2>` and `/dev/null` (no need to type any answer)
+Redirection `1>` and `2>` and `/dev/null`
 {{< /question >}}
 
 {{< question num="`command separators`" >}}
-`;` vs. `&&` separators, e.g. `mkdirr tmp; cd tmp` (no need to type any answer)
+`;` vs. `&&` separators, e.g. `mkdirr tmp; cd tmp`
 {{< /question >}}
 
 <!-- 06-pipes.mkv -->

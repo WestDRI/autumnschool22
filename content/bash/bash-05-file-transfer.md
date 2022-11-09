@@ -120,10 +120,9 @@ especially for work in progress. For example, you can use it the download all th
 your working directory on the cluster.
 
 {{< question num="`scp and sftp`" >}}
-Copy a file to/from the training cluster using either `scp` or `sftp`. (no need to type any answer)
+Copy a file to/from the training cluster using either `scp` or `sftp`.
 {{< /question >}}
 
 {{< question num="`rsync`" >}}
-Bring up the manual page on `rsync`, then use it to synchronize a directory from the training cluster. (no need to type
-any answer)
+Bring up the manual page on `rsync`, then use it to synchronize a directory from the training cluster.
 {{< /question >}}

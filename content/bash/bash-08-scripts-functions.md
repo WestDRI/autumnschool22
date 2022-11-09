@@ -210,7 +210,7 @@ It is best to define custom environment variables inside your ~/.bashrc file. It
 start a new shell.
 
 {{< question num=22 >}}
-Play with variables and their values. Change the prompt, e.g. `PS1="\u@\h \w> "`. (no need to type any answer)
+Play with variables and their values. Change the prompt, e.g. `PS1="\u@\h \w> "`.
 {{< /question >}}
 
 <!-- 08-variables.mkv -->
@@ -279,9 +279,18 @@ combine() {
 {{< question num="`swap file names`" >}}
 Write a function to swap two file names. Add a check that both files exist, before
 renaming them.
+<!-- ```sh -->
+<!-- function swap() { -->
+<!--     if [ -e $1 ] && [ -e $2 ] ; then -->
+<!--         /bin/mv $2 $2.bak -->
+<!--         /bin/mv $1 $2 -->
+<!--         /bin/mv $2.bak $1 -->
+<!--     else -->
+<!--         echo at least one of these files does not exist ... -->
+<!--     fi -->
+<!-- } -->
+<!-- ``` -->
 {{< /question >}}
-
-
 
 {{< question num="`archive()`" >}}
 Write a function `archive()` to replace directories with their gzipped archives.

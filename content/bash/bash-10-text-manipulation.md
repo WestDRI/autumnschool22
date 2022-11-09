@@ -120,9 +120,9 @@ cat haiku.txt   # 11 lines
 You can define inline awk scripts with braces surrounded by single quotation:
 
 ```sh
-awk '{print $1}' haiku.txt    # $1 is the first field (word) in each line => processing columns
-awk '{print $1}' haiku.txt    # $0 is the whole line
-awk '{print}' haiku.txt       # the whole line is the default action
+awk '{print $1}' haiku.txt       # $1 is the first field (word) in each line => processing columns
+awk '{print $0}' haiku.txt       # $0 is the whole line
+awk '{print}' haiku.txt          # the whole line is the default action
 awk -Fa '{print $1}' haiku.txt   # can specify another separator with -F ("a" in this case)
 ```
 
@@ -131,20 +131,20 @@ You can use multiple commands inside your awk script:
 ```sh
 echo Hello Tom > hello.txt
 echo Hello John >> hello.txt
-awk '{$2="Adam"; print $0}' hello.txt       # we replaced the second word in each line with "Adam"
+awk '{$2="Adam"; print $0}' hello.txt   # we replaced the second word in each line with "Adam"
 ```
 
 Most common `awk` usage is to postprocess output of other commands:
 
 ```sh
 /bin/ps aux    # display all running processes as multi-column output
-/bin/ps aux | awk '{print $2 " " $11}'     # print only the process number and the command
+/bin/ps aux | awk '{print $2 " " $11}'   # print only the process number and the command
 ```
 
 Awk also takes patterns in addition to scripts:
 
 ```sh
-awk '/Yesterday|Today/' haiku.txt              # print the lines that contain the words Yesterday or Today
+awk '/Yesterday|Today/' haiku.txt   # print the lines that contain the words Yesterday or Today
 ```
 
 And then you act on these patterns: if the pattern evaluates to True, then run the script:
@@ -158,8 +158,8 @@ Awk has a number of built-in variables; the most commonly used is NR:
 
 ```sh
 awk 'NR>1' haiku.txt    # if NumberRecord >1 then print it (default action), i.e. skip the first line
-awk 'NR>1{print $0}' haiku.txt    # last command expanded
-awk 'NR>1 && NR < 5' haiku.txt    # print lines 2-4
+awk 'NR>1{print $0}' haiku.txt   # last command expanded
+awk 'NR>1 && NR < 5' haiku.txt   # print lines 2-4
 ```
 
 > **Exercise:** write a awk script to process `cities.csv` to print only town/city names and their

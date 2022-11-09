@@ -104,7 +104,7 @@ done
 {{< /question >}}
 
 {{< question num="`diff`" >}}
-Using `diff` to compare files and directories. (no need to type any answer)
+Using `diff` to compare files and directories.
 {{< /question >}}
 
 {{< question num="`nested braces`" >}}
@@ -146,7 +146,6 @@ This is the beginning of Chapter 05.
 Content will go here.
 This is the end of Chapter 05.
 ```
-(no need to type any answer)
 {{< /question >}}
 
 {{< question num="`renaming with wildmask`" >}}

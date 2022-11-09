@@ -123,7 +123,8 @@ You can {{<a "https://youtu.be/AnwsnESj82Q" "watch a video for this topic">}} af
 ## Combining `find` and `grep`
 <!-- ## Running a command on the results of `find` -->
 
-You always can do something like this:
+Let's say you want to run a command on each of the files in the output of `find`. You can always do something
+using command substitution like this:
 
 ```sh
 $ for f in $(find . -name "*.txt")
@@ -132,15 +133,14 @@ $ for f in $(find . -name "*.txt")
 > done
 ```
 
-However, you can actually make it a one-liner:
+Alternatively, you can make it a one-liner:
 
 ```sh
 find . -name "*.txt" -exec command {} \;       # important to have spaces
 ```
 
--- this will run the command on each item in the output of find.
-
-In its simplest usage, `xargs` command lets you construct a list of arguments:
+Another -- perhaps more elegant -- one-line alternative is to use `xargs`. In its simplest usage, `xargs`
+command lets you construct a list of arguments:
 
 ```sh
 
@@ -174,7 +174,7 @@ and will hide errors (e.g. due to permissions).
 {{< /question >}}
 
 {{< question num="`command substitution`" >}}
-Play with command substitution using both `$(...)` and ``` `...` ``` syntax. (no need to type any answer)
+Play with command substitution using both `$(...)` and ``` `...` ``` syntax.
 {{< /question >}}
 
 <!-- 09-findgrep.mkv -->
