@@ -113,13 +113,13 @@ We'll talk more about virtual Python environments in
 
 Explain: tab completion, annotating code, displaying figures inside the notebook.
 
-* Esc - leave the cell (border becomes blue) to the control mode
-* "A" - insert a cell above the current cell
-* "B" - insert a cell below the current cell
-* "X" - delete the current cell
-* "M" - turn the current cell into the markdown cell
-* "H" - to display help
-* Enter - re-enter the cell (border becomes green) from the control mode
+* <font size="+2">Esc</font> - leave the cell (border becomes blue) to the control mode
+* <font size="+2">A</font> - insert a cell above the current cell
+* <font size="+2">B</font> - insert a cell below the current cell
+* <font size="+2">X</font> - delete the current cell
+* <font size="+2">M</font> - turn the current cell into the markdown cell
+* <font size="+2">H</font> - to display help
+* <font size="+2">Enter</font> - re-enter the cell (border becomes green) from the control mode
 * can enter Latex equations in a markdown cell, e.g. $int_0^\infty f(x)dx$
 
 ```py
