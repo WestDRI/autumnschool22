@@ -37,6 +37,7 @@ Python 3.8.10 (default, Jun 16 2021, 14:20:20)
 [GCC 9.3.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import numpy as np
+>>> np.sqrt(2)
 ```
 
 Working in the terminal, you won't have access to all the bells and whistles of the Jupyter interface, and you will have

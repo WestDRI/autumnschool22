@@ -235,7 +235,7 @@ surf = ax.plot_surface(x, y, z, facecolors=rgb, linewidth=0, antialiased=False, 
 ```
 
 **Note**: If you absolutely cannot locate your downloaded data file, you can also find it in the shared folder at
-`/home/user299/projects/def-sponsor00/shared/astro/data/mt_bruno_elevation.csv`.
+`/project/def-sponsor00/shared/astro/data/mt_bruno_elevation.csv`.
 
 {{< question num=11e >}}
 Replace `fig, ax = plt.subplots()` with `fig = plt.figure()` followed by `ax = fig.add_subplot()`. Don't forget about
