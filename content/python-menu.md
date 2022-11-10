@@ -21,7 +21,7 @@ matplotlib (basic plotting).
 
 Note that this course is a prerequisite for our more advanced Python courses later in the year.
 
-**Instructors**: Alex Razoumov & Marie-Helene Burle (SFU)
+**Instructors**: Marie-Helene Burle & Alex Razoumov (SFU)
 
 **Prerequisites:** None.
 
