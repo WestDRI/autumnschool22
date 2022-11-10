@@ -26,8 +26,9 @@ There are many ways to run Python commands:
 
 Today's options:
 
-1. **First option** - In our earlier courses you have used a remote cluster via SSH. We have another, larger
-   cluster for you today called `bobthewren.c3.ca`, and you can work inside an interactive job there:
+1. **First option**: In the Bash course you used a remote cluster via SSH. You can run Python in the command
+   line inside an interactive job there (<u>important</u>: do not run Python on the login node). To do this,
+   log in to `bobthewren.c3.ca` and start a serial interactive job:
 
 ```sh
 $ salloc --time=03:00:00 --mem=3600
@@ -44,39 +45,41 @@ Working in the terminal, you won't have access to all the bells and whistles of 
 to plot matplotlib graphics into remote PNG files and then download them to view locally on your computer. On the other
 hand, this option most closely resembles working in the terminal on a remote HPC cluster.
 
-2. **Second option** - Use JupyterHub on our training cluster: point your browser to https://bobthewren.c3.ca,
-   log in with yesterday's username and today's password, then launch a Jupyter Hub server with time = ***6
-   hours***, **1 CPU core**, memory = ***3600 MB***, GPU configuration = ***None***, user interface =
-   ***JupyterLab*** ![Submissions form](/img/jupyterlab.png)
+2. **Second option** is the GUI version of the previous option: use JupyterHub on our training cluster. Point
+   your browser to https://bobthewren.c3.ca, log in with your username and password, then launch a JupyterHub
+   server with time = ***4 hours***, **1 CPU core**, memory = ***3600 MB***, GPU configuration = ***None***,
+   user interface = ***JupyterLab***. Finally, start a new Python 3 notebook.
+   
+![Submissions form](/img/jupyterlab.png)
 
-3. **Third option** - Use syzygy.ca with one of the following accounts:
+3. **Third option**: use syzygy.ca with one of the following accounts:
     - if you have a university computer ID &nbsp;&rarr;&nbsp; go to <a href="https://syzygy.ca"
       target="_blank">syzygy.ca</a>, under Launch select your institution, then log in with your university credentials
     - if you have a Google account &nbsp;&rarr;&nbsp; go to <a href="https://syzygy.ca" target="_blank">syzygy.ca</a>,
       under Launch select either Cybera or PIMS, then log in with your Google account
 	<!-- - if you have a GitHub account &nbsp;&rarr;&nbsp; go to https://westgrid.syzygy.ca, sign in with your GitHub account -->
 
-In either case (2-3) start a new Python 3 notebook.
+After you log in, start a new Python 3 notebook.
 
 <!-- This will open a browser page pointing to the Jupyter server (remote except for the last option). Click on New -> -->
 <!-- Python 3. -->
 
-Note that syzygy.ca is a free community service run on Compute Canada cloud and used heavily for undergraduate teaching,
-with no uptime guarantees. In other words, it usually works, but it could be unstable or down.
+Note that syzygy.ca is a free community service run on the Alliance cloud and used heavily for undergraduate
+teaching, with no uptime guarantees. In other words, it usually works, but it could be unstable or down.
 
-4. **Local option** - The last option for more advanced users, if you have Python + Jupyter installed locally on your
-computer, and you know what you are doing, you can start a Jupyter notebook locally from your shell by typing `jupyter
-notebook`. If running locally, for this workshop you will need the following Python packages installed on your computer:
-numpy, matplotlib, pandas, scikit-image, xarray, nc-time-axis, netcdf4.
+4. **Local option**, for more advanced users: if you have Python + Jupyter installed locally on your computer,
+and you know what you are doing, you can start a Jupyter notebook locally from your shell by typing `jupyter
+notebook`. If running locally, for this workshop you will need the following Python packages installed on your
+computer: numpy, matplotlib, pandas, scikit-image, xarray, nc-time-axis, netcdf4.
 
 <!-- cartopy -->
 
 ## Virtual Python environments
 
-We have talked about creating Virtual Python environments in the HPC course. These environment are very useful, as not
-only can you install packages into your directories without being root, but they also let you create sandbox Python
-environments with your custom set of packages -- perfect when you work on multiple projects, each with a different list
-of dependencies.
+We talk about creating Virtual Python environments in the HPC course. These environment are very useful, as
+not only can you install packages into your directories without being root, but they also let you create
+sandbox Python environments with your custom set of packages -- perfect when you work on multiple projects,
+each with a different list of dependencies.
 
 To create a Python environment (you do this only once):
 
