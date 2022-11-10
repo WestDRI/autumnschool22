@@ -49,9 +49,9 @@ Here is an example of a more complex calendar function returning an alphabetical
 
 ```sh
 def dayOfTheWeek(year, month, day):
+    import datetime
     week = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
     return week[datetime.datetime(year, month, day).weekday()]
-import datetime
 dayOfTheWeek(2022, 11, 10)   # 'Thu'
 ```
 
