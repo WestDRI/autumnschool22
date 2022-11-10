@@ -55,6 +55,25 @@ print(total)
 Write a Python code to revert a string, e.g. 'computer' should become 'retupmoc'.
 {{< /question >}}
 
+<!-- **Solution 1:** -->
+<!-- ```py -->
+<!-- n = '' -->
+<!-- for i in 'computer': -->
+<!--     n = i + n -->
+<!-- print(n) -->
+<!-- ``` -->
+<!-- **Solution 2:** -->
+<!-- ```py -->
+<!-- a = list('computer') -->
+<!-- a.reverse() -->
+<!-- ''.join(a)      # convert the list to a string -->
+<!-- help(''.join)   # concatenate all strings in the iterable with the separator from the original string -->
+<!-- ``` -->
+<!-- **Solution 3:** -->
+<!-- ```py -->
+<!-- 'computer'[::-1] -->
+<!-- ``` -->
+
 {{< question num=3b >}}
 Print a difference between two lists, e.g. [1, 2, 3, 4] and [1, 2, 5].
 {{< /question >}}
@@ -63,6 +82,26 @@ Print a difference between two lists, e.g. [1, 2, 3, 4] and [1, 2, 5].
 Write a script to get the frequency of the elements in the list `a = [77, 9, 23, 67, 73, 21, 23, 9]`. You can google
 this problem :)
 {{< /question >}}
+
+<!-- **Solution 1:** -->
+<!-- ```py -->
+<!-- a = [77, 9, 23, 67, 73, 21, 23, 9] -->
+<!-- a.count(77)        # prints 1 -->
+<!-- a.count(9)         # prints 2 -->
+<!-- for i in a: -->
+<!--     a.count(i)    # counts the frequency of 'i' in list 'a' -->
+<!-- ``` -->
+<!-- **Solution 2:** -->
+<!-- ```py -->
+<!-- a = [77, 9, 23, 67, 73, 21, 23, 9] -->
+<!-- for i in set(a): -->
+<!--     print(i, "is seen", a.count(i))   # no redundant output -->
+<!-- ``` -->
+<!-- **Solution 3:** -->
+<!-- ```py -->
+<!-- a = [77, 9, 23, 67, 73, 21, 23, 9] -->
+<!-- import collections -->
+<!-- print(collections.Counter(a)) -->
 
 ## While loops
 

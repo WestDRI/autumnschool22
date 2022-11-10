@@ -87,3 +87,10 @@ b.remove('Earth')       # or you can use its value
 {{< question num=2b >}}
 Write a script to find the second largest number in the list [77,9,23,67,73,21].
 {{< /question >}}
+
+<!-- ```py -->
+<!-- a = [77, 9, 23, 67, 73, 21] -->
+<!-- a.sort(); a[-2]                    # should print 73 -->
+<!-- a.sort(reverse=True); a[1]         # should print 73 -->
+<!-- sorted(a)[-2]                      # should print 73 -->
+<!-- ``` -->

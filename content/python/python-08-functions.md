@@ -58,7 +58,15 @@ Write a function to convert from Celsius to Fahrenheit. Test it with celcius(), 
 Now modify celsius() to take a list of Fahrenheit temperatures, e.g., `celcius([70,80,90,100])`, to return a list of
 Celsius temperatures.
 {{< /question >}}
-	
+
+<!-- ```py -->
+<!-- def celsius(fs): -->
+<!--     c = [] -->
+<!--     for f in fs: -->
+<!--         c.append((f-32.)*5./9.) -->
+<!--     return c -->
+<!-- ``` -->
+
 Function arguments in Python can take default values becoming optional:
 
 ```py

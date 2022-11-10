@@ -83,6 +83,10 @@ Write a script to print the full dictionary sorted by the value.
 **Hint**: create a list comprehension looping through all (key,value) pairs and then try sorting the result.
 {{< /question >}}
 
+<!-- ```py -->
+<!-- sorted([(v,k) for (k,v) in favs.items()])   # notice the order-->
+<!-- ``` -->
+
 Similar to list comprehensions, we can form a dictionary comprehension:
 
 ```py
