@@ -45,8 +45,26 @@ a = average([1, 3, 4])
 print('average of actual values:', a)
 ```
 
+Here is an example of a more complex calendar function returning an alphabetical day of the week:
+
+```sh
+def dayOfTheWeek(year, month, day):
+    week = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    return week[datetime.datetime(year, month, day).weekday()]
+import datetime
+dayOfTheWeek(2022, 11, 10)   # 'Thu'
+```
+
+
+
+
+
 {{< question num=5 >}}
 Write a function to convert from Fahrenheit to Celsius, e.g. typing `celsius(77)` would produce 25.
+<!-- ```sh -->
+<!-- def celsius(f): -->
+<!--     return (f-32)*5/9 -->
+<!-- ``` -->
 {{< /question >}}
 
 {{< question num=6 >}}
@@ -57,8 +75,6 @@ Write a function to convert from Celsius to Fahrenheit. Test it with celcius(), 
 {{< question num=7 >}}
 Now modify celsius() to take a list of Fahrenheit temperatures, e.g., `celcius([70,80,90,100])`, to return a list of
 Celsius temperatures.
-{{< /question >}}
-
 <!-- ```py -->
 <!-- def celsius(fs): -->
 <!--     c = [] -->
@@ -66,6 +82,7 @@ Celsius temperatures.
 <!--         c.append((f-32.)*5./9.) -->
 <!--     return c -->
 <!-- ``` -->
+{{< /question >}}
 
 Function arguments in Python can take default values becoming optional:
 

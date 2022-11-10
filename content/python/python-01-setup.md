@@ -111,12 +111,13 @@ We'll talk more about virtual Python environments in
 ## Navigating Jupyter interface
 
 - File | Save As - to rename your notebook
+- File | Download - download the notebook to your computer
 - File | New Launcher - to open a new launcher dashboard, e.g. to start a terminal
 - File | Logout - to terminate your job (everything is running inside a Slurm job!)
 
 Explain: tab completion, annotating code, displaying figures inside the notebook.
 
-* <font size="+2">Esc</font> - leave the cell (border becomes blue) to the control mode
+* <font size="+2">Esc</font> - leave the cell (border changes colour) to the control mode
 * <font size="+2">A</font> - insert a cell above the current cell
 * <font size="+2">B</font> - insert a cell below the current cell
 * <font size="+2">X</font> - delete the current cell
