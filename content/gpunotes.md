@@ -67,25 +67,20 @@ Or copy and paste one of these URLs:
 Take note of the node name and the token.
 
 On your computer, open a new local terminal, whether in Mac or Linux or inside MobaXTerm in Windows. In that
-window, paste the following command, substituting <u>username</u> by your username and <u>node_name</u> by its
-corresponding value -- this will start SSH port forwarding from the local port 8888 to the remote port 8888 on
-the compute node:
+window, paste the following command, substituting {{< colour "#714285" "username" >}}&nbsp; by your username
+and {{< colour "#714285" "node_name" >}}&nbsp; by its corresponding value -- this will start SSH port
+forwarding from the local port 8888 to the remote port 8888 on the compute node:
 
 ```sh
 ssh username@cedar.computecanada.ca -L 8888:node_name.int.cedar.computecanada.ca:8888
 ```
 
 Finally, in the browser on your computer, go to http://localhost:8888/?token=896fb...c28e1, pasting in the
-full <u>token</u>. This will start JupyterLab. Inside it, start a Python 3 notebook.
+full {{< colour "#714285" "token" >}}. This will start JupyterLab. Inside it, start a Python 3 notebook.
 
 **Our documentation**:
 - {{<a "https://docs.alliancecan.ca/wiki/RAPIDS#Working_on_clusters_with_a_Singularity_image" "Starting RAPIDS with a Singularity image">}}
 - {{<a "https://docs.alliancecan.ca/wiki/Advanced_Jupyter_configuration#Connecting_to_JupyterLab" "Connecting to JupyterLab">}}
-
-
-
-
-
 
 
 
