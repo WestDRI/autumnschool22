@@ -78,7 +78,8 @@ ssh username@cedar.computecanada.ca -L 8888:node_name.int.cedar.computecanada.ca
 Finally, in the browser on your computer, go to http://localhost:8888/?token=896fb...c28e1, pasting in the
 full {{< colour "#714285" "token" >}}. This will start JupyterLab. Inside it, start a Python 3 notebook.
 
-**Our documentation**:
+More details in our documentation:
+
 - {{<a "https://docs.alliancecan.ca/wiki/RAPIDS#Working_on_clusters_with_a_Singularity_image" "Starting RAPIDS with a Singularity image">}}
 - {{<a "https://docs.alliancecan.ca/wiki/Advanced_Jupyter_configuration#Connecting_to_JupyterLab" "Connecting to JupyterLab">}}
 
