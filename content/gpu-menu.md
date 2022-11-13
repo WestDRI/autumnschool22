@@ -43,3 +43,5 @@ order to participate in the course exercises. On Windows we recommend
 computers SSH is usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
 
 On the remote system we will use Numba, CuPy, and RAPIDS.
+
+<!-- [Instructions](../gpunotes) -->

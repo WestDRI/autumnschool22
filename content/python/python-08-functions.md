@@ -41,8 +41,7 @@ def average(values):   # the argument is a list
     if len(values) == 0:
         return None
     return sum(values) / len(values)
-a = average([1, 3, 4])
-print('average of actual values:', a)
+print('average of actual values:', average([1, 3, 4]))
 ```
 
 Here is an example of a more complex calendar function returning an alphabetical day of the week:
