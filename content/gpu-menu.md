@@ -44,4 +44,5 @@ computers SSH is usually pre-installed (try typing `ssh` in a terminal to make s
 
 On the remote system we will use Numba, CuPy, and RAPIDS.
 
-<!-- [Instructions](../gpunotes) -->
+Instructions for starting a Python notebook from inside a RAPIDS NGC Apptainer container on Cedar can be
+found [here](../gpunotes).
