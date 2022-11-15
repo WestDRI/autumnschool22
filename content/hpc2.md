@@ -53,8 +53,8 @@ can give an example from your field?
 {{< /question >}}
 
 {{< question num=11 >}}
-Try left+right or upper+lower split panes in `tmux`. Edit a file in one and run bash commands in the other. Trying
-disconnecting and then reconnecting to the same session.
+Try left+right or upper+lower split panes in `tmux`. Edit a file in one and run bash commands in the
+other. Try disconnecting temporarily and then reconnecting to the same session.
 {{< /question >}}
 
 {{< question num=12 >}}
