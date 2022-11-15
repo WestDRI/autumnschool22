@@ -1,5 +1,5 @@
 +++
-title = "HPC Day 1 mid-day session"
+title = "HPC mid-day session"
 slug = "hpc2"
 +++
 
@@ -73,6 +73,47 @@ Add target `clean`. Try implementing `clean` for *all* executable files in the c
 are called.
 {{< /question >}}
 
+{{< question num=14 >}}
+Julia parallelism was not mentioned in the videos. Let's quickly talk about it (slide 29).
+{{< /question >}}
+
+{{< question num=14b >}}
+Suggest a computational problem to parallelize. Which of the parallel tools mentioned in the videos would you use, and
+why?
+
+If you are not sure about the right tool, suggest a problem, and we can brainstorm the approach together.
+{{< /question >}}
+
+
+{{< question num=15 >}}
+If you use Python or R in your work, try running a Python or R script in the terminal.
+
+If this script depends on packages, try installing them in your own directory with `virtualenv`. Probably, only a few of
+you should do this on the training cluster at the same time.
+{{< /question >}}
+
+{{< question num=16 >}}
+Any remaining questions? Type your question into the chat, ask via audio (unmute), or raise your hand in Zoom.
+{{< /question >}}
+
+3. Review the program for this afternoon: you have **1h15m** of videos to watch until 2:30pm Pacific.
+
+By the end of this workshop you should be familiar with:
+
+- how jobs are scheduled in Slurm
+- submitting ...
+  - serial, shared-memory, distributed-memory and hybrid jobs
+  - array jobs
+  - interactive jobs, and switching between interactive and batch jobs for the same task
+- how to estimate memory requirements of a completed Slurm job
+
+Some of the hands-on exercises we will do in the late afternoon Zoom session:
+
+- Using a serial job, time optimized (-O2) vs. unoptimized C code.
+- Using a serial job, time a C code vs. a Python code.
+- Submit an array job for different number of terms in the summation of \pi.
+- Try scaling an MPI job with 1 -> 2 -> 4 -> 8 cores and measuring the speedup.
+- Test a code inside an interactive job.
 
 
 

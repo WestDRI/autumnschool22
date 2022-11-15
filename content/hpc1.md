@@ -4,15 +4,15 @@ slug = "hpc1"
 +++
 
 1. Instructor / helpers / course introduction.
+1. Download [today's materials](http://bit.ly/introhpc2) (ZIP file with slides and codes inside).
 1. Distribute the usernames and passwords.
 1. Let's try to log in to the training cluster.
-1. Download [today's materials](http://bit.ly/introhpc2) (ZIP file with slides and codes inside).
 1. Review the program for this morning: you have **1h49m** of videos to watch, before 11:30am Pacific. We have many
-   parallel programming frameworks videos: select the tools you are most interested in.
+   parallel programming frameworks videos: <u>select the ones</u> you are most interested in.
 
 By mid-day you should be familiar with:
 
-- Compute Canada / the Alliance cluster hardware
+- the Alliance cluster hardware
   - cluster intended purpose and specs
   - filesystems
   - allocation policies
