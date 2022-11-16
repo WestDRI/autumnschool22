@@ -45,5 +45,4 @@ computers SSH is usually pre-installed (try typing `ssh` in a terminal to make s
 On the remote system we will use Numba, CuPy, and RAPIDS.
 
 Please [download the slides](../files/xlab-pygpu-p100.pdf) for this workshop. And you can find the
-instructions for starting a Python notebook from inside a RAPIDS NGC Apptainer container on Cedar
-[here](../gpunotes).
+instructions for starting a Python notebook from inside a RAPIDS NGC container on Cedar [here](../gpunotes).
