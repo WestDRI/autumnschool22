@@ -3,7 +3,7 @@ title = "Notes for the GPU session"
 slug = "gpunotes"
 +++
 
-We will use a Python notebook from inside a RAPIDS NGC singularity container. Building this container from
+We will use a Python notebook from inside a RAPIDS NGC Apptainer container. Building this container from
 scratch takes anywhere from 40 mins (in `/localscratch`) to several hours (in `scratch`). Today we will skip
 this part, as we have already built this container for you -- you can find it at
 `/scratch/razoumov/rapids.sif` on Cedar.
