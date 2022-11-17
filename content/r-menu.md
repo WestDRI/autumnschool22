@@ -26,10 +26,18 @@ This introductory course does not assume any prior knowledge: it is aimed at set
 
 {{<cor>}}Zoom{{</cor>}} \
 {{<cgr>}}9:30am-12:30am Pacific{{</cgr>}} \
-{{<nolinktitle>}}Opening session{{</nolinktitle>}} \
-{{<nolinktitle>}}R: why and for whom?{{</nolinktitle>}} \
-{{<nolinktitle>}}Resources{{</nolinktitle>}} \
-{{<nolinktitle>}}R: the basics{{</nolinktitle>}} \
-{{<nolinktitle>}}Packages{{</nolinktitle>}} \
-{{<nolinktitle>}}The tidyverse{{</nolinktitle>}} \
-{{<nolinktitle>}}Writing efficient R code{{</nolinktitle>}}
+<!-- {{<nolinktitle>}}Opening session{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}R: why and for whom?{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Resources{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}R: the basics{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Packages{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}The tidyverse{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Writing efficient R code{{</nolinktitle>}} -->
+
+{{<linktitle url="https://prog.westdri.ca/2022_autumnschool/01_r_opening" text="Opening session">}}
+{{<linktitle url="https://prog.westdri.ca/2022_autumnschool/02_r_why" text="R: why and for whom?">}}
+{{<linktitle url="https://prog.westdri.ca/2022_autumnschool/03_r_resources" text="Resources">}}
+{{<linktitle url="https://prog.westdri.ca/2022_autumnschool/04_r_basics" text="R: the basics">}}
+{{<linktitle url="https://prog.westdri.ca/2022_autumnschool/05_r_packages" text="Packages">}}
+{{<linktitle url="https://prog.westdri.ca/2022_autumnschool/06_r_tidyverse" text="The tidyverse">}}
+{{<linktitle url="https://prog.westdri.ca/2022_autumnschool/07_r_efficiency" text="Writing efficient R code">}}
