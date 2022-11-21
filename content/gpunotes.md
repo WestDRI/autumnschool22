@@ -29,14 +29,17 @@ this part, as we have already built this container for you -- you can find it at
 > 3. Submit this job with `sbatch distributed.sh` and wait for it to finish.
 
 <!-- chmod og+X /scratch/razoumov -->
-<!-- chmod og+r /scratch/razoumov/rapids.sif -->
+<!-- chmod og+r /scratch/razoumov/{rapids.sif,notebook-*.ipynb} -->
 
-Today, we will be using this image. Log in to Cedar and copy the container into your `/scratch`
+Today, we will be using this image. Log in to Cedar and copy the container and the notebooks into your `/scratch`
 directory. Next, start an interactive GPU job:
 
 ```sh
 cd ~/scratch
-cp /scratch/razoumov/rapids.sif rapids.sif
+cp /scratch/razoumov/rapids.sif .
+cp /scratch/razoumov/notebook-1-cupy-intro.ipynb .
+cp /scratch/razoumov/notebook-2-rapids-intro.ipynb .
+cp /scratch/razoumov/notebook-3-numba-intro.ipynb .
 module load apptainer
 salloc --time=3:00:0 --mem-per-cpu=3600  --gpus-per-node=1 --account=def-training-wa_gpu --reservation=westdri-wr_gpu
 ```
@@ -64,11 +67,13 @@ Or copy and paste one of these URLs:
  or http://127.0.0.1:8888/lab?token=896fb...c28e1
 ```
 
-Take note of the node name and the token.
+Take note of (1) the node name, (2) the token and possibly (3) the port if it is different from 8888.
 
 On your computer, open a new local terminal, whether in Mac or Linux or inside MobaXTerm in Windows. In that
-window, paste the following command, substituting {{< colour "#714285" "username" >}}&nbsp; by your username
-and {{< colour "#714285" "node_name" >}}&nbsp; by its corresponding value -- this will start SSH port
+window, paste the following command, substituting {{< colour "#714285" "username" >}}&nbsp; by your username,
+{{< colour "#714285" "node_name" >}}&nbsp; by its corresponding value, and
+{{< colour "#714285" "port" >}}&nbsp; by the actual port (if different from 8888)
+-- this will start SSH port
 forwarding from the local port 8888 to the remote port 8888 on the compute node:
 
 ```sh
