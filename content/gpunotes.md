@@ -38,7 +38,7 @@ directory. Next, start an interactive GPU job:
 cd ~/scratch
 cp /scratch/razoumov/rapids.sif rapids.sif
 module load apptainer
-salloc --time=3:00:0 --mem-per-cpu=3600  --gpus-per-node=1 --account=... --reservation=...
+salloc --time=3:00:0 --mem-per-cpu=3600  --gpus-per-node=1 --account=def-training-wa_gpu --reservation=westdri-wr_gpu
 ```
 
 Wait for the job to get started, and then -- inside the job -- start a shell inside the container. Please pay
