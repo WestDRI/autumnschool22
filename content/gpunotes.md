@@ -31,8 +31,8 @@ this part, as we have already built this container for you -- you can find it at
 <!-- chmod og+X /scratch/razoumov -->
 <!-- chmod og+r /scratch/razoumov/{rapids.sif,notebook-*.ipynb} -->
 
-Today, we will be using this image. Log in to Cedar and copy the container and the notebooks into your `/scratch`
-directory. Next, start an interactive GPU job:
+Today, we will be using this image. Log in to *cedar.computecanada.ca* with your guest account and copy the
+container and the notebooks into your `/scratch` directory. Next, start an interactive GPU job:
 
 ```sh
 cd ~/scratch
