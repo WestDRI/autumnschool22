@@ -48,7 +48,7 @@ On the remote system we will use Numba, CuPy, and RAPIDS.
 
 - [Slides](../files/xlab-pygpu-p100.pdf) for this workshop
 - [Instructions](../gpunotes) for starting a Python notebook from inside a RAPIDS NGC container on Cedar
-- Python notebooks (right click to save):
+- Python notebooks (right-click to save to your computer):
   1. [CuPy notebook](../files/notebook-1-cupy-intro.ipynb)
   2. [RAPIDS notebook](../files/notebook-2-rapids-intro.ipynb)
   3. [Numba notebook](../files/notebook-3-numba-intro.ipynb)
