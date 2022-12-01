@@ -44,7 +44,7 @@ universities from British Columbia, Alberta, Saskatchewan, and Manitoba. Consequ
     </div>
     <div style="float: left; width: 80%">
       <div align="left">
-        Evolutionary and behavioural ecologist by training, {{<a "https://carpentries.org/" "Software/Data Carpentry instructor,">}} and open source proponent, {{<a "https://www.sfu.ca/~msb2/" "Marie-Hélène Burle">}} develops and delivers training for researchers on computing tools (R, Python, Julia, Git, Bash scripting, machine learning, parallel scientific programming, HPC) for {{<a "https://www.sfu.ca/" "Simon Fraser University">}} and the {{<a "https://alliancecan.ca/" "Digital Research Alliance of Canada.">}}
+        Evolutionary and behavioural ecologist by training, {{<a "https://carpentries.org/" "Software/Data Carpentry instructor,">}} and open source advocate, {{<a "https://www.sfu.ca/~msb2/" "Marie-Hélène Burle">}} develops and delivers training for researchers on high-performance computing tools (R, Python, Julia, Git, Bash scripting, machine learning, parallel scientific programming, and HPC) for {{<a "https://www.sfu.ca/" "Simon Fraser University">}} and the {{<a "https://alliancecan.ca/" "Digital Research Alliance of Canada.">}}
 	  </div>
 	</div>
   </div>
