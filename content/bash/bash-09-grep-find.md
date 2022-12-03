@@ -49,7 +49,7 @@ Software is like that.
 ```
 From the above text, contained in the file `haiku.txt`, which command would result in the following output:
 ```txt
-and the presence of absence
+and the presence of absence:
 ```
 1. `grep of haiku.txt`
 2. `grep -E of haiku.txt`
