@@ -71,8 +71,8 @@ Take note of (1) the node name, (2) the token and possibly (3) the port if it is
 
 On your computer, open a new local terminal, whether in Mac or Linux or inside MobaXTerm in Windows. In that
 window, paste the following command, substituting {{< colour "#714285" "username" >}}&nbsp; by your username,
-{{< colour "#714285" "node_name" >}}&nbsp; by its corresponding value, and
-{{< colour "#714285" "port" >}}&nbsp; by the actual port (if different from 8888)
+{{< colour "#714285" "node_name" >}}&nbsp; by its corresponding value, and the remote 
+{{< colour "#714285" "port" >}}&nbsp; (the second `8888`) by the actual port (if different from `8888`)
 -- this will start SSH port
 forwarding from the local port 8888 to the remote port 8888 on the compute node:
 
