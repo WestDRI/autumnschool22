@@ -15,9 +15,8 @@ There is a single {{<a "https://forms.gle/NZhzRU5o8ti8VhVJ7" "free registration"
 ---
 
 This introductory course will walk you through the basics of programming in Python. We will cover the main language
-features -- variables and data types, conditionals, lists, for/while loops, list comprehensions, dictionaries, writing
-functions -- as well as working with external libraries such as numpy (mathematical arrays), pandas (data frames), and
-matplotlib (basic plotting).
+features: variables and data types, conditionals, lists, for/while loops, list comprehensions, dictionaries, and writing
+functions.
 
 Note that this course is a prerequisite for our more advanced Python courses later in the year.
 
